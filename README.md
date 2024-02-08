@@ -3,4 +3,5 @@
 
 # Meeting Agendas ✨
 ### February 8, 2023
-* Discuss final project topic
+* Discuss/confirm final project topic
+* Next steps on getting started
