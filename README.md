@@ -2,15 +2,41 @@
 **Team 3:** Cynthia Chung, Hannah Hauch, Ellie Kim, Negar Zaghi, Nicole Howes
 
 # Upcoming Meeting Agenda ✨
-### February 14, 2023
+### February 27, 2024
+#### Agenda
+* 
+
+# Archive 🗒️
+### February 15, 2024
 #### Agenda
 * Discuss next steps for project
 * Clarify objectives for proposal
 #### Meeting Notes
-* 
+* Data wrangling, processing metadata > we haven't done that yet but that's the immediate next steps
+  * Metadata wrangling and correlation analysis should be separate aims
+  * For both the correlation analysis and the PCA plot, Bessie says that we need numerical data
+  * Logistical regression analysis is another route we can go because it works on categorical
+    * Define which variables we want to correlate (so tree cover v. soil classification)
+    * It's similar to a Chi square test, will tell us how significantly correlated it is
+    * Can outline confounding variables and it will take that into account
+* When separating samples, it is important to give them new names so that the QIIME2 pipeline won't get confused by it
+  * i.e., Tree would become separated into Tree-1, Tree-2, Tree-3 instead of Tree, Tree, Tree
+  * Bessie says that it should be easy code to separate
+* **Updated Aim 1:** QIIME2 processing
+  * Needs to be done by proposal time
+  * No filtering and denoising > look at it as is, and then decide how the data should be subsetted for Aims 3-5
+* **Updated Aim 2:** Basic alpha- and beta- diversity for both tree cover and soil 
+  * Keep the data set as is (no wrangling)
+* **Updated Aim 3:** Indicator taxa analysis on the soil
+  * It's a form of predictive analysis which will be applicable for our research question
+* **Updated Aim 4:** Core microbiome analysis
+* **Updated Aim 5:** Differential abundance
+* **Updated Aim 6:** Metadata wrangling for correlation analysis, logistical regression analysis
+  * Evlyn will send us the code Simran made for the logistical regression analysis
+* Other than the checklist, is there anything else that's required for the project proposal > the outline is under the assignment submission page
+  * Checklist is only for the dataset 
 
-# Archive 🗒️
-### February 8, 2023
+### February 8, 2024
 #### Agenda
 * Discuss/confirm final project topic
 * Next steps on getting started
