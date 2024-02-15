@@ -3,6 +3,10 @@
 
 # Upcoming Meeting Agenda ✨
 ### February 14, 2023
+#### Agenda
+* Discuss next steps for project
+* Clarify objectives for proposal
+#### Meeting Notes
 * 
 
 # Archive 🗒️
