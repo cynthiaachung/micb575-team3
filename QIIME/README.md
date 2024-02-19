@@ -17,6 +17,7 @@ Negar
 - Viewed demux.qzv file on viewer and chose trimming parameters
 - Denoised/clustered (took many hours!)
 - Visualized table.qza, rep-seqs.qza and stats.qza as .qzv files
+- Uploaded progress to date as QIIME_Code.txt file
 
 # Project Proposal 📝
 Internal Deadline: Thursday February 22
