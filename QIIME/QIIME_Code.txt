@@ -1,0 +1,59 @@
+## Activated VPN
+
+## !/bin/bash
+
+## Logged into server
+## Terminal login info
+# root: 10.19.139.168
+# password: Biome2360
+ssh root@10.19.139.168 
+
+## Make a new directory named project_2_proposal
+mkdir /data/project_2_proposal
+cd project_2_proposal
+
+## Imported data using the manifest file and outputted demultiplexed file
+qiime tools import \
+  --type "SampleData[SequencesWithQuality]" \
+  --input-format SingleEndFastqManifestPhred33V2 \
+  --input-path /mnt/datasets/project_2/soil/soil_manifest.txt \
+  --output-path ./demux_seqs.qza
+
+## Created visualization of demultiplexed file
+qiime demux summarize \
+  --i-data demux_seqs.qza \
+  --o-visualization demux.qzv
+
+## Exported demux.qzv file onto local computer to visualize using QIIME2 viewer
+# First opened new terminal window and navigated to the desired directory, then copied file
+scp root@10.19.139.168:/data/project_2_proposal/demux.qzv .
+
+## Viewed file on qiime viewer and chose trimming parameter, 0 to 409
+
+## Determine ASVs with DADA2 (ran on detached screen)
+qiime dada2 denoise-single \
+  --i-demultiplexed-seqs demux_seqs.qza \
+  --p-trim-left 0 \
+  --p-trunc-len 409 \
+  --o-representative-sequences rep-seqs.qza \
+  --o-table table.qza \
+  --o-denoising-stats stats.qza
+
+## Ran denoising/clustering on detached screen (took many hours)
+screen -r Feb18ASVs
+
+## Visualized DADA2 stats
+qiime metadata tabulate \
+  --m-input-file stats.qza \
+  --o-visualization stats.qzv
+
+## Visualized table file
+qiime feature-table summarize \
+  --i-table table.qza \
+  --o-visualization table.qzv \
+  --m-sample-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv
+
+## Visualized rep-seqs file
+qiime feature-table tabulate-seqs \
+  --i-data rep-seqs.qza \
+  --o-visualization rep-seqs.qzv
