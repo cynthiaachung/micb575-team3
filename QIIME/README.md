@@ -11,6 +11,7 @@ Some things to note
 Ellie
 - Made directory
 - Initial attempt at importing
+
 Negar
 - Imported and demultiplexed using manifest file
 - Viewed demux.qzv file on viewer and chose trimming parameters
