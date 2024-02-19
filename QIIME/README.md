@@ -7,6 +7,16 @@ Some things to note
   * Use the team server that Evelyn has given us
   * Keep an updated code file on GitHub
 
+## QIIME2 Progress 👩‍🍳
+Ellie
+- Made directory
+- Initial attempt at importing
+Negar
+- Imported and demultiplexed using manifest file
+- Viewed demux.qzv file on viewer and chose trimming parameters
+- Denoised/clustered (took many hours!)
+- Visualized table.qza, rep-seqs.qza and stats.qza as .qzv files
+
 # Project Proposal 📝
 Internal Deadline: Thursday February 22
 
