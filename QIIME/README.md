@@ -13,7 +13,7 @@ Ellie
 - Initial attempt at importing
 
 Negar
-- Imported and demultiplexed using manifest file
+- Importing wasn't loading files so imported and demultiplexed using manifest file (used manifest.txt file, it worked!)
 - Viewed demux.qzv file on viewer and chose trimming parameters
 - Denoised/clustered (took many hours!)
 - Visualized table.qza, rep-seqs.qza and stats.qza as .qzv files
