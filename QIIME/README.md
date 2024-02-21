@@ -25,6 +25,8 @@ Hannah
 - r primer: ATTACCGCGGCTGCTGG
 - Trained the classifier with the new ref-seqs file
 - Ran the toxonomic analysis (took almost 24 hours!)
+- taxonomy.qza was visualized and looks correct
+- uploaded progress on QIIME_Code.txt
 
 # Project Proposal 📝
 Internal Deadline: Thursday February 22
