@@ -57,3 +57,36 @@ qiime feature-table summarize \
 qiime feature-table tabulate-seqs \
   --i-data rep-seqs.qza \
   --o-visualization rep-seqs.qzv
+
+## Hannah Feb. 20 
+#Proposal Code
+#IP: 10.19.139.168
+#Password: Biome2360
+#!/bin/bash
+
+#Paper where I got the primers: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8544895/
+
+#Training Taxonomic Classifier
+	#replace primer sequences with your correct sequences
+	#replace trunc-len with the one you defined in your denoising step
+qiime feature-classifier extract-reads \
+  --i-sequences /mnt/datasets/silva_ref_files/silva-138-99-seqs.qza \
+  --p-f-primer AGAGTTTGATYMTGGCTCAG \
+  --p-r-primer ATTACCGCGGCTGCTGG \
+  --p-trunc-len 409 \
+  --o-reads ref-seqs-trimmed.qza
+
+
+ # Train classifier with your new ref-seq file
+  qiime feature-classifier fit-classifier-naive-bayes \
+  --i-reference-reads ref-seqs-trimmed.qza \
+  --i-reference-taxonomy /mnt/datasets/silva_ref_files/silva-138-99-tax.qza \
+  --o-classifier classifier.qza
+
+
+
+# Taxonomic analysis
+qiime feature-classifier classify-sklearn \
+  --i-classifier /mnt/datasets/classifiers/silva-138-99-515-806-nb-classifier.qza \
+  --i-reads rep-seqs.qza \
+  --o-classification taxonomy.qza
