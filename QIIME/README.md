@@ -19,6 +19,13 @@ Negar
 - Visualized table.qza, rep-seqs.qza and stats.qza as .qzv files
 - Uploaded progress to date as QIIME_Code.txt file
 
+Hannah
+- Replaced primer sequences for V1-V3 (found [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8544895/))
+- f primer: AGAGTTTGATYMTGGCTCAG
+- r primer: ATTACCGCGGCTGCTGG
+- Trained the classifier with the new ref-seqs file
+- Ran the toxonomic analysis
+
 # Project Proposal 📝
 Internal Deadline: Thursday February 22
 
