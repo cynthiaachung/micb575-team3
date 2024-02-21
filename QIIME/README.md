@@ -24,7 +24,7 @@ Hannah
 - f primer: AGAGTTTGATYMTGGCTCAG
 - r primer: ATTACCGCGGCTGCTGG
 - Trained the classifier with the new ref-seqs file
-- Ran the toxonomic analysis
+- Ran the toxonomic analysis (took almost 24 hours!)
 
 # Project Proposal 📝
 Internal Deadline: Thursday February 22
