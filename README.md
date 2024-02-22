@@ -46,6 +46,9 @@
 * Ellie asked about rarefaction
   * After filtering the chloroplast and mitochondria, the category she's looking at is soil classification but she was worried about the sampling depth and losing a group within soil classificaiton
   * Looking at the alpha rarefaction curve and histogram, Bessie thinks that 2526 is a good sampling depth so that we can include the ~8 Orthic Gray
+* Bessie's key notes
+  * Cite the bioinformatics tools you use
+  * Detailed figure legends are important (title = takeaway, legend = all the information that the reader needs to know) 
 
 ### February 15, 2024
 #### Agenda
