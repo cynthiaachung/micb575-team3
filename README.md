@@ -2,9 +2,10 @@
 **Team 3:** Cynthia Chung, Hannah Hauch, Ellie Kim, Negar Zaghi, Nicole Howes
 
 # Upcoming Meeting Agenda ✨
-### February 27, 2024
+### February 22, 2024
 #### Agenda
-* 
+* Rediscuss project topic and its relation to the dataset
+* Confirmation of QIIME2 processing decisions
 
 # Archive 🗒️
 ### February 15, 2024
