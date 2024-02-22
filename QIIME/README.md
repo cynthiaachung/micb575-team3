@@ -44,6 +44,6 @@ Internal Deadline: Thursday February 22
 Section | Person(s) responsible
 --------|----------------------
 Intro and Background | Hannah, Nicole
-Dataset Overview https://github.com/cynthiaachung/micb575-team3/wiki/Proposal | Negar, Ellie
+[Dataset Overview](https://github.com/cynthiaachung/micb575-team3/wiki/Proposal) | Negar, Ellie
 Research Objectives, Experimental Aims and Rationale, Proposed Approach | Negar - Aim 1 and 2, Nicole - Aim 3, Ellie - Aim 4, Hannah - Aim 5, Cynthia - Aim 6
 Overview Flowchart, Weekly Timeframe, Participation | Cynthia
