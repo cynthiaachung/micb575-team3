@@ -28,6 +28,15 @@ Hannah
 - taxonomy.qza was visualized and looks correct
 - uploaded progress on QIIME_Code.txt
 
+Ellie 
+- Viewed table-no-mitochondria-no-chloroplast.qzv file
+- Selected sampling depth based on soil classification
+- "Orthic Gray Luvisol" soil type's sampling depth are quite low that majory of the sample gets lost starting from 1000 sampling depth
+- sampling depth of 3000 was selected based on the sampling depth distribution
+- Ran the alpha-rarefaction code
+- Visualized alpha-rarefaction.qzv
+- Uploaded progress on QIIME_Code.txt
+
 # Project Proposal 📝
 Internal Deadline: Thursday February 22
 
