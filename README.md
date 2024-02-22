@@ -2,15 +2,51 @@
 **Team 3:** Cynthia Chung, Hannah Hauch, Ellie Kim, Negar Zaghi, Nicole Howes
 
 # Upcoming Meeting Agenda ✨
+### February 27, 2024
+#### Agenda
+* 
+
+# Archive 🗒️
 ### February 22, 2024
 #### Agenda
 * Rediscuss project topic and its relation to the dataset
 * Confirmation of QIIME2 processing decisions, check trimming parameters...
-* Discussion of correlation analysis (Wanted to confirm that correlation matrix was the way to go, and not Spearman's/Pearson's)
+* Discussion of correlation analysis (Wanted to confirm that it's correlation matrix)
 * Discussion of logistical regression analysis (Code? How does it work?)
 * Layout of project - is it okay if the aims are outlined by methods as opposed to specific research questions?
+#### Meeting Notes
+* Hannah asked about primers
+  * Based on the paper, the primers that they used contained weird base pairs (i.e., W, M)
+  * She ended up using the universal primers for V1-V3
+  * Bessie said that there are universal/classic primers and improved primers, likely they used the improved ones
+    * Bessie says that it was a good decision to use the universal ones - yay!
+* Cynthia asked about correlation analysis
+  * Confirmed correlation matrix is what we wanted to do
+  * Evelyn hasn't sent the code for the logistical regression analysis, but Bessie will ask her to send it!
+* It's okay to have the aim titles as the steps, but it's important to describe why you're doing it (explain the rationale)
+  * Bessie: Make sure you understand what the code is for and what it's doing, include that in the proposal (Evelyn really likes to see that!)
+* Hannah wanted to clarify our research objective and how that works with the dataset
+  * The dataset is looking at LTSP and forest management, but we're looking at how soil classification impacts tree covers > would we have to take this into account?
+  * Hannah found a separate paper that said that LSTP has minimal effects on the microbial community, but that there is is an impact
+  * Bessie says that that's a fair concern, but something is still impacting the soil diversity so most of the research project is still valid
+    * The key concern is how this may impact the correlation analysis
+    * The first thought is to eliminate for this confounding factor, you could select for the reference for the correlation analysis
+      * Briefly looking at the dataset, the sample size should be okay 
+    * Hannah is proposing that for some of the other aims, would it be useful to perform a correlation analysis between soil compaction types 
+    * The second thought is that since we know that it's likely because of soil treatment and not tree cover, then we could use that as a segway to other components of our report
+* We've confirmed that our overarching research question is what variable(s) impacts soil classification
+* Negar asked about if we should filter for alpha/beta diversity and trimming
+  * Negar shared the screen with the demux.qzv file
+  * Looking at the sequence length summary, it isn't perfect like in the modules (obviously) but it's pretty good at the beginning before dropping down
+  * At 409, it goes from a quality of 29 to 26 and stays around here > this is where she chose
+  * Bessie says that it looks good, the rest of us agree :)
+* Negar asked about the checklist and how it asks us to use the stats.qzv file to justify her trimming choice
+  * Bessie doesn't think that it's super necessary > could look at percentages and such, but since we decided it together it should be okay!
+  * An alternative is to choose a "bad" one and show the differences
+* Ellie asked about rarefaction
+  * After filtering the chloroplast and mitochondria, the category she's looking at is soil classification but she was worried about the sampling depth and losing a group within soil classificaiton
+  * Looking at the alpha rarefaction curve and histogram, Bessie thinks that 2526 is a good sampling depth so that we can include the ~8 Orthic Gray
 
-# Archive 🗒️
 ### February 15, 2024
 #### Agenda
 * Discuss next steps for project
