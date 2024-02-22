@@ -12,6 +12,10 @@ ssh root@10.19.139.168
 mkdir /data/project_2_proposal
 cd project_2_proposal
 
+## Negar Feb. 18 
+#IP: 10.19.139.168
+#Password: Biome2360
+
 ## Imported data using the manifest file and outputted demultiplexed file
 qiime tools import \
   --type "SampleData[SequencesWithQuality]" \
