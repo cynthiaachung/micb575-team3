@@ -6,6 +6,8 @@
 #### Agenda
 * Rediscuss project topic and its relation to the dataset
 * Confirmation of QIIME2 processing decisions
+* Discussion of correlation analysis (Spearman's Rank?)
+* Discussion of logistical regression analysis (Code? How does it work?)
 
 # Archive 🗒️
 ### February 15, 2024
