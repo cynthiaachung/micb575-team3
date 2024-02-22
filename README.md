@@ -6,7 +6,7 @@
 #### Agenda
 * Rediscuss project topic and its relation to the dataset
 * Confirmation of QIIME2 processing decisions
-* Discussion of correlation analysis (Spearman's Rank?)
+* Discussion of correlation analysis (Wanted to confirm that correlation matrix was the way to go, and not Spearman's/Pearson's)
 * Discussion of logistical regression analysis (Code? How does it work?)
 * Layout of project - is it okay if the aims are outlined by methods as opposed to specific research questions?
 
