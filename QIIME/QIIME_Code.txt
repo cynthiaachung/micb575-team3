@@ -136,6 +136,14 @@ qiime phylogeny align-to-tree-mafft-fasttree \
 qiime diversity alpha-rarefaction \
   --i-table table.qza \
   --i-phylogeny rooted-tree.qza \
-  --p-max-depth 2500 \
+  --p-max-depth 10000 \
   --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
   --o-visualization alpha-rarefaction.qzv
+
+# Calculate alpha- and beta-diversity metrics
+qiime diversity core-metrics-phylogenetic \
+  --i-phylogeny rooted-tree.qza \
+  --i-table table-no-mitochondria-no-chloroplast.qza \
+  --p-sampling-depth 2526 \
+  --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
+  --output-dir core-metrics-results
