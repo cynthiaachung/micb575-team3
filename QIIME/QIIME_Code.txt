@@ -147,3 +147,27 @@ qiime diversity core-metrics-phylogenetic \
   --p-sampling-depth 2526 \
   --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
   --output-dir core-metrics-results
+
+# Visualize faith-pd-group-significance
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/faith_pd_vector.qza \
+  --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
+  --o-visualization core-metrics-results/faith-pd-group-significance.qzv
+
+# Visualize evenness-group-significance
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/evenness_vector.qza \
+  --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
+  --o-visualization core-metrics-results/evenness-group-significance.qzv
+
+# Visualize Shannon-group-significance
+qiime diversity alpha-group-significance \
+  --i-alpha-diversity core-metrics-results/shannon_vector.qza \
+  --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
+  --o-visualization core-metrics-results/shannon-group-significance.qzv
+
+# View files on QIIME Viewer
+scp root@10.19.139.168:/data/project_2_proposal/core-metrics-results/shannon-group-significance.qzv .
+
+
+
