@@ -182,13 +182,19 @@ qiime diversity beta-group-significance \
 
 qiime diversity beta-group-significance \
   --i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qza \
-  --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
-  --m-metadata-column Soil Classification \
+  --m-metadata-file MICB_421_Soil_Metadata.tsv \
+  --m-metadata-column Soil_Classification \
   --o-visualization core-metrics-results/weighted-unifrac-soil-classification-significance.qzv \
   --p-pairwise
 
+------------------------------------------
+Negar's notes:
+figure out if you have access: ls -l (see all the info about that file)
+copy to own computer, edit metadata file, nano it or edit on tsv file with _
+upload back to server then use it
+
 # View files on QIIME Viewer
 scp root@10.19.139.168:/data/project_2_proposal/core-metrics-results/shannon-group-significance.qzv .
-
+------------------------------------------
 
 
