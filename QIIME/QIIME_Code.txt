@@ -148,6 +148,11 @@ qiime diversity core-metrics-phylogenetic \
   --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
   --output-dir core-metrics-results
 
+## Negar Mar 7 
+#Login: ssh root@10.19.139.168
+#IP: 10.19.139.168
+#Password: Biome2360
+
 # Visualize faith-pd-group-significance
 qiime diversity alpha-group-significance \
   --i-alpha-diversity core-metrics-results/faith_pd_vector.qza \
@@ -165,6 +170,22 @@ qiime diversity alpha-group-significance \
   --i-alpha-diversity core-metrics-results/shannon_vector.qza \
   --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
   --o-visualization core-metrics-results/shannon-group-significance.qzv
+
+# Calculate beta-group-significance
+# Visualize weighted_unifrac_distance
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qza \
+  --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
+  --m-metadata-column Compaction Treatment \
+  --o-visualization core-metrics-results/weighted-unifrac-compaction-treatment-significance.qzv \
+  --p-pairwise
+
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qza \
+  --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
+  --m-metadata-column Soil Classification \
+  --o-visualization core-metrics-results/weighted-unifrac-soil-classification-significance.qzv \
+  --p-pairwise
 
 # View files on QIIME Viewer
 scp root@10.19.139.168:/data/project_2_proposal/core-metrics-results/shannon-group-significance.qzv .
