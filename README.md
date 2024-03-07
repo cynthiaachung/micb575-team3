@@ -2,9 +2,27 @@
 **Team 3:** Cynthia Chung, Hannah Hauch, Ellie Kim, Negar Zaghi, Nicole Howes
 
 # Upcoming Meeting Agenda ✨
-### February 27, 2024
+### March 7, 2024
 #### Agenda
-* 
+* Going over team proposal feedback from Avril
+* Troubleshooting analyses (i.e., code, approach, etc.)
+#### Meeting Notes
+* Avril was confused about soil classification and compactness - should define it better for him
+* Move some of the previous paper details into the dataset overview section
+* Title should be change from "within" to "and"
+* Alpha-/beta-diversity analyses: emphasize the compactness more
+  * Look at compaction as its own factor across soil classification
+  * If there isn't interesting data, then could be an extra point to look at soil compactness within soil classification as well 
+* Core microbiome analyses: describe it like it is in the module
+  * Could do it between different compactness as well to strengthen approach
+* Indicator taxa analysis: you would need a model to predict, but we're not making one
+  * Could add the sentence that Avril suggested
+  * Only looking at soil type but not compactness, wanted to use taxonomic data to predict unknown soil type
+  * More so on the prediction front (if this is the bacteria population, likely this soil type) - less so of the other, Avril likely didn't pick up on that
+  * Rephrase it as we know this unknown soil type, can we infer it using compactness, if we find multiple correlations between compactness and taxonomy, therefore move on to use bacteria taxonomy to predict it
+  * Could do it for compactness as well to strengthen argument (?) 
+* Differential abundance: Just focus on compactness
+* Correlation analyses: (See Bessie's email)
 
 # Archive 🗒️
 ### February 22, 2024
@@ -75,7 +93,7 @@
 * **Updated Aim 4:** Core microbiome analysis
 * **Updated Aim 5:** Differential abundance
 * **Updated Aim 6:** Metadata wrangling for correlation analysis, logistical regression analysis
-  * Evlyn will send us the code Simran made for the logistical regression analysis
+  * Evelyn will send us the code Simran made for the logistical regression analysis
 * Other than the checklist, is there anything else that's required for the project proposal > the outline is under the assignment submission page
   * Checklist is only for the dataset 
 
