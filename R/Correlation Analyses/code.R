@@ -6,7 +6,6 @@ library(corrplot)
 library(ggplot2)
 library(tidyr)
 library(nnet)
-library(reshape2)
 
 # import data -------------------------------------------------------------
 data <- read.csv("data/metadata.csv", header = TRUE) %>%
@@ -188,7 +187,7 @@ heat_soilph <- data_repeated %>%
 ggplot(heat_soilph, aes(x = info_soil, y = ph_cat, fill = n)) +
   geom_tile(colour = "white",
             size=0.5) +
-  labs(title = "Heatmap of Soil Classification versus Compaction",
+  labs(title = "Heatmap of Soil Classification versus pH",
        x = "Soil Classification",
        y = "pH",
        fill = "Count") +
@@ -221,7 +220,7 @@ heat_soilcn <- data_repeated %>%
 ggplot(heat_soilcn, aes(x = info_soil, y = cn_cat, fill = n)) +
   geom_tile(colour = "white",
             size=0.5) +
-  labs(title = "Heatmap of Soil Classification versus Compaction",
+  labs(title = "Heatmap of Soil Classification versus Carbon-Nitrogen Ratio",
        x = "Soil Classification",
        y = "CN Ratio",
        fill = "Count") +
