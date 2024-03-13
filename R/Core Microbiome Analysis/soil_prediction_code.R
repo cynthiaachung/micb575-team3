@@ -3,7 +3,8 @@ library(phyloseq)
 library(ape) # importing trees
 library(tidyverse)
 library(vegan)
-
+library(microbiome)
+library("ggVennDiagram")
 #### Load data ####
 # Change file paths as necessary
 metafp <- "MICB_421_Soil_Metadata.tsv"
@@ -104,12 +105,69 @@ mpt_filt <- subset_taxa(mpt,  Domain == "d__Bacteria" & Class!="c__Chloroplast" 
 mpt_filt_nolow <- filter_taxa(mpt_filt, function(x) sum(x)>2, prune = TRUE)
 # Remove samples with less than 2 reads
 mpt_final <- prune_samples(sample_sums(mpt_filt_nolow)>2, mpt_filt_nolow)
-# Remove samples where month is na
-#mpt_final <- subset_samples(mpt_filt_nolow_samps, !is.na(month) )
 
-# Rarefy samples
-# rngseed sets a random number. If you want to reproduce this exact analysis, you need
-# to set rngseed the same number each time
-# t transposes the table to use rarecurve function
-# cex decreases font size
-rarecurve(t(as.data.frame(otu_table(mpt_final))), cex=0.1)
+##### Saving #####
+save(mpt_final, file="mpt_final.RData")
+
+## Core microbiome analysis
+# Convert to relative abundance
+mpt_RA <- transform_sample_counts(mpt_final, fun=function(x) x/sum(x))
+
+
+# Filter dataset by soil classification
+mpt_brun <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Brunisolic Gray Luvisol"))
+mpt_orth_hfp <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Orthic Humo-Ferric Podzol"))
+mpt_gley_edb <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Gleyed Eluviated Dystric Brunisol"))
+mpt_orth_gl <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Orthic Gray Luvisol"))
+mpt_gley_gl <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Gleyed Gray Luvisol"))
+mpt_orth_db <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Orthic Dystric Brunisol"))
+mpt_gley_db <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Gleyed Dystric Brunisol"))
+mpt_mes_uh <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Mesic Ultic Haploxeralfs"))
+mpt_aq_gl <- subset_samples(mpt_RA, str_detect(Soil.Classification, "Aquic Glossudalfs"))
+soil_na <- subset_samples(mpt_RA, is.na(Soil.Classification))
+
+# What ASVs are found in more than 70% of samples in each antibiotic usage category?
+# trying changing the prevalence to see what happens
+prev_threshold <- 0.05
+brun_ASVs <- core_members(mpt_brun, detection=0, prevalence = prev_threshold)
+orth_hfp_ASVs <- core_members(mpt_orth_hfp, detection=0, prevalence = prev_threshold)
+gley_edb_ASVs <- core_members(mpt_gley_edb, detection=0, prevalence = prev_threshold)
+orth_gl_ASVs <- core_members(mpt_orth_gl, detection=0, prevalence = prev_threshold)
+gley_gl_ASVs <- core_members(mpt_gley_gl, detection=0, prevalence = prev_threshold)
+orth_db_ASVs <- core_members(mpt_orth_db, detection=0, prevalence = prev_threshold)
+gley_db_ASVs <- core_members(mpt_gley_db, detection=0, prevalence = prev_threshold)
+mes_uh_ASVs <- core_members(mpt_mes_uh, detection=0, prevalence = prev_threshold)
+aq_gl_ASVs <- core_members(mpt_aq_gl, detection=0, prevalence = prev_threshold)
+soil_na_ASVs <- core_members(soil_na, detection=0, prevalence = prev_threshold)
+
+# can plot those ASVs' relative abundance
+prune_taxa(brun_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(orth_hfp_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(gley_edb_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(orth_gl_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(gley_gl_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(orth_db_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(gley_db_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(mes_uh_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(aq_gl_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
+prune_taxa(soil_na_ASVs,mpt_RA) %>% 
+  plot_bar(fill="Genus") + 
+  facet_wrap(.~`Soil.Classification`, scales ="free")
