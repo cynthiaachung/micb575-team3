@@ -210,4 +210,30 @@ qiime diversity beta-group-significance \
 scp root@10.19.139.168:/data/project_2_proposal/core-metrics-results/weighted-unifrac-soil-classification-significance.qzv .
 scp root@10.19.139.168:/data/project_2_proposal/core-metrics-results/weighted-unifrac-compaction-treatment-significance.qzv .
 
+### Export files into human readable files, onto local computer
+# In project folder make new directory and navigate to it
+mkdir mpt_export
 
+# Export rooted-tree.qza, taxonomy.qza, table.qza files
+qiime tools export \
+  --input-path ../project_2_proposal/rooted-tree.qza \
+  --output-path rooted_tree_export
+
+qiime tools export \
+  --input-path ../project_2_proposal/taxonomy.qza \
+  --output-path taxonomy_export
+
+qiime tools export \
+  --input-path ../project_2_proposal/table.qza \
+  --output-path table_export
+
+#export this one as well just in case it is needed
+qiime tools export \
+  --input-path ../project_2_proposal/table-no-mitochondria-no-chloroplast.qza \
+  --output-path table_filtered_export
+
+# export a biom file into a text file:
+biom convert -i feature-table.biom --to-tsv -o feature-table.txt
+
+# copy entire mpt_export folder onto local computer into folder where R project will be
+scp -r root@10.19.139.168:/data/mpt_export/ .
