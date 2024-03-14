@@ -8,7 +8,7 @@
 #### Meeting Notes
 * Correlation Analyses
   * Missing groups - used as a reference! Remember to specify reference for dependent variable in addition to independent variable
-  * Interpretation: reference group is Soil A, for Soil B compared to Soil A, if it's a positive coefficient it means that there's a greater likeihood it will occur in Soil B then Soil A for that tree type
+  * Interpretation: reference group is Soil A, for Soil B compared to Soil A, if it's a positive coefficient it means that there's a greater likeihood that the tree-type (for example) will occur in Soil B then Soil A
 * Core Microbiome
   * (Ellie asked her questions)
 
