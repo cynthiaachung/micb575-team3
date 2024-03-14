@@ -171,30 +171,43 @@ qiime diversity alpha-group-significance \
   --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
   --o-visualization core-metrics-results/shannon-group-significance.qzv
 
+## Negar Mar 13 
+#Login: ssh root@10.19.139.168
+#Password: Biome2360
+
+# Copied and edited MICB_421_Soil_Metadata.tsv on own computer to add _ in the heading names to alleviate error in beta diversity code
+scp root@10.19.139.168:/data/project_2_proposal/MICB_421_Soil_Metadata.tsv .
+# Saved edited metadata file data folder in the server called MICB_421_Soil_Metadata_modified.txt
+scp MICB_421_Soil_Metadata_modified.txt root@10.19.139.168:/data/project_2_proposal
+
 # Calculate beta-group-significance
 # Visualize weighted_unifrac_distance
+# Soil Classification
 qiime diversity beta-group-significance \
   --i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qza \
-  --m-metadata-file /mnt/datasets/project_2/soil/MICB_421_Soil_Metadata.tsv \
-  --m-metadata-column Compaction Treatment \
-  --o-visualization core-metrics-results/weighted-unifrac-compaction-treatment-significance.qzv \
-  --p-pairwise
-
-qiime diversity beta-group-significance \
-  --i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qza \
-  --m-metadata-file MICB_421_Soil_Metadata.tsv \
+  --m-metadata-file MICB_421_Soil_Metadata_modified.txt \
   --m-metadata-column Soil_Classification \
   --o-visualization core-metrics-results/weighted-unifrac-soil-classification-significance.qzv \
   --p-pairwise
 
-------------------------------------------
-Negar's notes:
-figure out if you have access: ls -l (see all the info about that file)
-copy to own computer, edit metadata file, nano it or edit on tsv file with _
-upload back to server then use it
+# Compaction_Treatment
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qza \
+  --m-metadata-file MICB_421_Soil_Metadata_modified.txt \
+  --m-metadata-column Compaction_Treatment \
+  --o-visualization core-metrics-results/weighted-unifrac-compaction-treatment-significance.qzv \
+  --p-pairwise
 
-# View files on QIIME Viewer
-scp root@10.19.139.168:/data/project_2_proposal/core-metrics-results/shannon-group-significance.qzv .
-------------------------------------------
+# Tree-Cover
+qiime diversity beta-group-significance \
+  --i-distance-matrix core-metrics-results/weighted_unifrac_distance_matrix.qza \
+  --m-metadata-file MICB_421_Soil_Metadata_modified.txt \
+  --m-metadata-column Tree_Cover \
+  --o-visualization core-metrics-results/weighted-unifrac-tree-cover-significance.qzv \
+  --p-pairwise
+
+# Save files to View files on QIIME Viewer
+scp root@10.19.139.168:/data/project_2_proposal/core-metrics-results/weighted-unifrac-soil-classification-significance.qzv .
+scp root@10.19.139.168:/data/project_2_proposal/core-metrics-results/weighted-unifrac-compaction-treatment-significance.qzv .
 
 
