@@ -11,12 +11,12 @@ Rarefaction parameters:
 
 ## Alpha Diversity
 
-### We Must First Filter The Data!!!
+### We Must First Control for other Variables!!!
 **First, the data needs to select for other metadata categories because there is too much variability in the richness data as shown here**
 
-*Compaction Treatment - Richness (Not Filtered) - Rare1*
+*Compaction Treatment - Richness (Not Controlled) - Rare1*
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_compac_not_filtered.png)
-*Soil Classification - Richness (Not Filtered) - Rare2*
+*Soil Classification - Richness (Not Controlled) - Rare2*
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_not_filtered.png)
 
 ### Richness and Evenness
