@@ -1,5 +1,4 @@
-# Results
-
+# Results 👩🏽‍🌾
 ## Rarefaction Curve with R
 Looks different from QIIME. So a Phyloseq object with the previous rarefaction parameter (2526) is created and another one using 1500 arbitrarly to lose less samples
 Bothe phyloseq objects are used to create curves
