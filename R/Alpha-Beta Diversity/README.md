@@ -11,7 +11,7 @@ Rarefaction parameters:
 
 ## Alpha Diversity
 
-### We Must Filter Data!!!
+### We Must First Filter The Data!!!
 **First, the data needs to select for other metadata categories because there is too much variability in the richness data as shown here**
 
 *Compaction Treatment - Richness (Not Filtered) - Rare1*
