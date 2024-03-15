@@ -1,4 +1,5 @@
 # Results
+---
 ## Alpha Diversity
 ### Richness and Evenness
 insert
@@ -6,6 +7,7 @@ insert
 ### Phylogentic Distance
 insert
 
+---
 ## Beta Diversity
 ### PCOA Plot
 insert
@@ -14,6 +16,8 @@ insert
 insert
 
 
+---
+---
 ---
 # Done so far
 ## Mar 13
