@@ -18,6 +18,9 @@ talk about it
 ### Phylogentic Distance
 insert
 
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="200">
+
+
 ## Beta Diversity
 ### PCOA Plot
 insert
