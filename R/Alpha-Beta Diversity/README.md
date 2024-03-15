@@ -12,7 +12,7 @@ talk about it
 
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_compac_not_filtered.png)
 
-<img src="[https://raw.githubusercontent.com/username/repository/main/path/to/image.jpg](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_compac_not_filtered.png)" alt="Alt text" width="200">
+<img src="https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_compac_not_filtered.png" alt="Alt text" width="200">
 
 
 ### Phylogentic Distance
