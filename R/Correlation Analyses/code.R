@@ -6,6 +6,7 @@ library(corrplot)
 library(ggplot2)
 library(tidyr)
 library(nnet)
+library(reshape2)
 
 # import data -------------------------------------------------------------
 data <- read.csv("data/metadata.csv", header = TRUE) %>%
@@ -102,7 +103,7 @@ heat_soiltree <- data_repeated %>%
 ## heat map
 ggplot(heat_soiltree, aes(x = info_soil, y = info_tree, fill = n)) +
   geom_tile(colour = "white",
-            size=0.5) +
+            linewidth = 0.5) +
   labs(title = "Heatmap of Soil Classification versus Tree Cover",
        x = "Soil Classification",
        y = "Tree Cover",
@@ -128,7 +129,7 @@ heat_soilltsp <- data_repeated %>%
 ## heat map
 ggplot(heat_soilltsp, aes(x = info_soil, y = treatment_ltsp, fill = n)) +
   geom_tile(colour = "white",
-            size=0.5) +
+            linewidth = 0.5) +
   labs(title = "Heatmap of Soil Classification versus LTSP Treatment",
        x = "Soil Classification",
        y = "LTSP Treatment",
@@ -154,7 +155,7 @@ heat_soilcompact <- data_repeated %>%
 ## heat map
 ggplot(heat_soilcompact, aes(x = info_soil, y = treatment_compaction, fill = n)) +
   geom_tile(colour = "white",
-            size=0.5) +
+            linewidth = 0.5) +
   labs(title = "Heatmap of Soil Classification versus Compaction",
        x = "Soil Classification",
        y = "Compaction",
@@ -186,7 +187,7 @@ heat_soilph <- data_repeated %>%
 ## heat map
 ggplot(heat_soilph, aes(x = info_soil, y = ph_cat, fill = n)) +
   geom_tile(colour = "white",
-            size=0.5) +
+            linewidth = 0.5) +
   labs(title = "Heatmap of Soil Classification versus pH",
        x = "Soil Classification",
        y = "pH",
@@ -219,7 +220,7 @@ heat_soilcn <- data_repeated %>%
 ## heat map
 ggplot(heat_soilcn, aes(x = info_soil, y = cn_cat, fill = n)) +
   geom_tile(colour = "white",
-            size=0.5) +
+            linewidth = 0.5) +
   labs(title = "Heatmap of Soil Classification versus Carbon-Nitrogen Ratio",
        x = "Soil Classification",
        y = "CN Ratio",
@@ -238,10 +239,20 @@ ggplot(heat_soilcn, aes(x = info_soil, y = cn_cat, fill = n)) +
 ggsave("output/heatmap/heat_soilcn.png", width = 25, height = 20, units = "cm")
 
 # multinomial regression analysis -----------------------------------------
-# specify reference group
 data_multinom <- data_repeated %>%
+  # specify reference group
+  ## soil
   mutate(info_soil = as.factor(info_soil)) %>%
   mutate(info_soil = relevel(info_soil, ref = "Orthic Gray Luvisol")) %>%
+  ## tree
+  mutate(info_tree = as.factor(info_tree)) %>%
+  # mutate(info_tree = relevel(info_tree, ref = " ")) %>% # tree
+  ## ltsp
+  mutate(treatment_ltsp = as.factor(treatment_ltsp)) %>%
+  mutate(treatment_ltsp = relevel(treatment_ltsp, ref = "OM2")) %>%
+  ## compaction
+  mutate(treatment_compaction = as.factor(treatment_compaction)) %>%
+  mutate(treatment_compaction = relevel(treatment_compaction, ref = "C1")) %>% # compaction
   # create categories for ph
   mutate(ph_cat = (as.factor(ifelse(info_ph <= 3, "≤3",
                                     ifelse(info_ph < 4, "4", 
@@ -249,6 +260,7 @@ data_multinom <- data_repeated %>%
                                                   ifelse(info_ph <= 6, "6", ">6")))))),
          ph_cat = factor(ph_cat, levels = c("≤3", "4", "5", "6", ">6"))
   ) %>%
+  mutate(ph_cat = as.factor(ph_cat)) %>%
   # create categories for cn ratio
   mutate(cn_cat = (as.factor(ifelse(info_cnratio <= 10, "≤10",
                                     ifelse(info_cnratio <= 20, "10-20", 
@@ -256,7 +268,8 @@ data_multinom <- data_repeated %>%
                                                   ifelse(info_cnratio <= 40, "30-40", 
                                                          ifelse(info_cnratio <= 50, "40-50", ">50"))))))),
          cn_cat = factor(cn_cat, levels = c("≤10", "10-20", "20-30", "30-40", "40-50", ">50"))
-  )
+  ) %>%
+  mutate(cn_cat = as.factor(cn_cat))
 
 # soil and tree
 ## run the multinomial model, tree cover is independent variable and soil classification is the dependent variable 
