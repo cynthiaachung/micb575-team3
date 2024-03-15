@@ -10,7 +10,7 @@ Both phyloseq objects are used to create curves
 #### Compaction: Richess Not Filtered
 talk about it
 
-![Richness Not Filtered] (https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_compac_not_filtered.png)
+![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_compac_not_filtered.png)
 
 
 ### Phylogentic Distance
