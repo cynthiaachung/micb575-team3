@@ -8,14 +8,15 @@ Both phyloseq objects are used to create curves
 
 ## Alpha Diversity
 
-### Richness and Evenness
-
+### Filter Data
 **First, the data needs to select for other metadata categories because there is too much variability in the richness data as shown here**
 
 *Compaction Treatment - Richness (Not Filtered)*
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_compac_not_filtered.png)
 *Soil Classification - Richness (Not Filtered)*
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_not_filtered.png)
+
+### Richness and Evenness
 
 ### Phylogentic Distance
 insert
