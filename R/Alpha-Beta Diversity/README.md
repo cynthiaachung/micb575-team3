@@ -21,14 +21,17 @@ Rarefaction parameters:
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_not_filtered.png)
 
 ### Richness and Evenness
+(having issues controlling for variables... to be continued...)
 
 ### Phylogentic Diversity
 
 *Soil Classification - Phylogenetic Diversity (Not Controlled) - Rare1*![Phylogenetic Diversity](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pd.png)
 (Insert Caption)
+(Add stats)
 
 *Compaction Treatment - Phylogenetic Diversity (Not Controlled) - Rare1*![Phylogenetic Diversity](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pd_compac.png)
 (Insert Caption)
+(Add stats)
 
 ## Beta Diversity
 ### PCOA Plot
