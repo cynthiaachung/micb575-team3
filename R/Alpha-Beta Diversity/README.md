@@ -13,8 +13,10 @@ Rarefaction parameters:
 
 ### We Must First Control for other Variables!!!
 **Here is how the RICHNESS plots looks without controlling for other variables, there is too much variability, so we should control for other variables**
+
 *Compaction Treatment - Richness (Not Controlled) - Rare1*
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_compac_not_filtered.png)
+
 *Soil Classification - Richness (Not Controlled) - Rare1*
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_not_filtered.png)
 
