@@ -22,8 +22,11 @@ Rarefaction parameters:
 
 ### Richness and Evenness
 
-### Phylogentic Distance
+### Phylogentic Diversity
+
 insert
+
+*Soil Classification - Phylogenetic Diversity (Not Controlled) - Rare1*![Phylogenetic Diversity](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pd.png)
 
 
 ## Beta Diversity
