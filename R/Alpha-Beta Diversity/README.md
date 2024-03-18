@@ -74,8 +74,8 @@ The goal here is to first select for other variables before plotting alpha diver
 
 ## Taxonomy bar plots
 (still working on this!!!)
-(plots to be come...)
-(stats to be come...)
+(plots to come...)
+(stats to come...)
 
 ---
 # Done so far
