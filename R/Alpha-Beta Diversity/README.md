@@ -8,7 +8,7 @@ Both phyloseq objects are used to create curves
 Rarefaction parameters:
 - Rare1 = 2526
 - Rare2 = 1500
-  
+
 _I will be using Rare1 data for the plots below, unless I see very little data shown in the plots, then I will change to Rare2 and do the plots all again, but for now, only Rare1 is used_
 
 ## Alpha Diversity
@@ -41,12 +41,14 @@ The goal here is to first select for other variables before plotting alpha diver
 ### Phylogentic Diversity
 
 *Soil Classification - Phylogenetic Diversity (Not Controlled) - Rare1*![Phylogenetic Diversity](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pd.png)
-(Insert Caption)
-(Add stats)
+**Explanation:**  Visually we can see that the box plots for soil type phylogenetic diversity have some variability in phylogenetic diversity, most notably the group "Orthic Gray Luvisol, Gleyed Gray Luvisol". However we need to do statistical analysis to see if this difference is significant.
+
+(stats to be continued...)
 
 *Compaction Treatment - Phylogenetic Diversity (Not Controlled) - Rare1*![Phylogenetic Diversity](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pd_compac.png)
-(Insert Caption)
-(Add stats)
+**Explanation:**  Visually we can see that the box plots for compaction treatment phylogenetic diversity have very little difference in their median values. However we need to do statistical analysis to check if there might be any significant difference.
+
+(stats to be continued...)
 
 ## Beta Diversity
 ### PCOA Plot - Bray-Curtis (Richness and Abundance/Eveness)
@@ -58,7 +60,7 @@ The goal here is to first select for other variables before plotting alpha diver
 - "Brunisolic Gray Luvisol" and "Orthis Gray Luvisol, Gleyed Gray Luvisol" are very close to eachother and are both farther away than other groups
 - The rest of the soil types each have a specific cluster but overlap somewhat
 - It is worth to note that "NA" forms a tight cluster indicating that they may all be similar soil types
-
+(stats to be continued...)
 
 
 *Compaction Treatment - Beta Diversity PCOA plots*![Beta Diversity - PCOA plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa_compac.png)
@@ -67,10 +69,13 @@ The goal here is to first select for other variables before plotting alpha diver
 - compaction treatment C0 and REF are very similar and compaction treatments C1 and C2 are farther away in terms of beta diversity.
 - Important to note that there are a few red (C0) and purple (REF) points that are positioned close the C1 and C2.
 - There are also not that many data points for C1 and C2
+(stats to be continued...)
+
 
 ## Taxonomy bar plots
 (still working on this!!!)
-
+(plots to be come...)
+(stats to be come...)
 
 ---
 # Done so far
