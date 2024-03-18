@@ -74,14 +74,23 @@ The goal here is to first select for other variables before plotting alpha diver
 
 ## Taxonomy bar plots
 
+### Soil Classification
+
 *Soil Classification - Taxa Bar Plots - Phylum*![Taxa-Phylum Plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxaphylum.png)
 
 
 *Soil Classification - Taxa Bar Plots - Class*![Taxa-Class Plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxaclass.png)
 
-**For fun, they are all bacteria!**
+**For fun, showing that they are all bacteria!**
 
 *Soil Classification - Taxa Bar Plots - Domain*![Taxa-Domain Plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxadomain.png)
 
 (stats to come...)
+
+
+### Compaction Treatment
+
+*Compaction Treatment - Taxa Bar Plots - Phylum*![Taxa-Phylum Plots]
+
+*Compaction Treatment - Taxa Bar Plots - Class*![Taxa-Phylum Plots]
 
