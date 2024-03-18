@@ -81,10 +81,3 @@ The goal here is to first select for other variables before plotting alpha diver
 
 (stats to come...)
 
----
-# Done so far
-## Mar 13
-- First attempt at plots
-- Richness
-  - Shows too much variability amongst same soil type
-  - Bessie suggested to control for other variables first
