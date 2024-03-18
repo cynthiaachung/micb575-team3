@@ -20,8 +20,12 @@ Rarefaction parameters:
 *Soil Classification - Richness (Not Controlled) - Rare1*
 ![Richness Not Filtered](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_richness_not_filtered.png)
 
+*Explanation:*
+According to the Richness plots above, we can see a large number of points outside the boxplots, indicating that there is a large range of alpha diversity measures within each soil classification OR compaction treatment. This suggests that we need to explore controlling for other variables that make affect alpha diversity measures such as "Site", "Hebacide Use"...
+
 ### Richness and Evenness
-(having issues controlling for variables... to be continued...)
+The goal here is to first select for other variables before plotting alpha diversity richness plots
+(note: I am still having issues controlling for variables... working on these plots so to be continued...)
 
 ### Phylogentic Diversity
 
