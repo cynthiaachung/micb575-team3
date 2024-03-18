@@ -8,6 +8,8 @@ Both phyloseq objects are used to create curves
 Rarefaction parameters:
 - Rare1 = 2526
 - Rare2 = 1500
+  
+_I will be using Rare1 data for the plots below, unless I see very little in the plots, then I will change to Rare2 and do the plots all again, but for now, only Rare1 is used_
 
 ## Alpha Diversity
 
