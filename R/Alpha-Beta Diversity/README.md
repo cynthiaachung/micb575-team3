@@ -49,12 +49,21 @@ The goal here is to first select for other variables before plotting alpha diver
 (Add stats)
 
 ## Beta Diversity
-### PCOA Plot
+### PCOA Plot - Bray-Curtis (Richness and Abundance/Eveness)
 
 *Soil Classification - Beta Diversity PCOA plots*![Beta Diversity - PCOA plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
 
+**Explanation:**  This plot really highlights that: 
+- Soil Classification "Aquic Glossudalfs" has microbial communities that are different from the other groups.
+- "Brunisolic Gray Luvisol" and "Orthis Gray Luvisol, Gleyed Gray Luvisol" are very close to eachother and are both farther away than other groups
+- The rest of the soil types each have a specific cluster but overlap somewhat
+- It is worth to note that "NA" forms a tight cluster indicating that they may all be similar soil types
+
+
 
 *Compaction Treatment - Beta Diversity PCOA plots*![Beta Diversity - PCOA plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa_compac.png)
+
+**Explanation:**  This plot shows visually that compaction treatment C0 and REF are very similar and compaction treatments C1 and C2 are farther away in terms of beta diversity. However it is important to note that there are a few red (C0) and purple (REF) points that are positioned close the C1 and C2. There are also not that many data points for C1 and C2
 
 ## Taxonomy bar plots
 insert
