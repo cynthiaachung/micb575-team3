@@ -79,5 +79,9 @@ The goal here is to first select for other variables before plotting alpha diver
 
 *Soil Classification - Taxa Bar Plots - Class*![Taxa-Class Plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxaclass.png)
 
+**For fun, they are all bacteria!**
+
+*Soil Classification - Taxa Bar Plots - Domain*![Taxa-Domain Plots]
+
 (stats to come...)
 
