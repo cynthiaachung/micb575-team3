@@ -90,7 +90,7 @@ The goal here is to first select for other variables before plotting alpha diver
 
 ### Compaction Treatment
 
-*Compaction Treatment - Taxa Bar Plots - Phylum*![Taxa-Phylum Plots]
+*Compaction Treatment - Taxa Bar Plots - Phylum*![Taxa-Phylum Plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxaphylum_compac.png)
 
 *Compaction Treatment - Taxa Bar Plots - Class*![Taxa-Phylum Plots]
 
