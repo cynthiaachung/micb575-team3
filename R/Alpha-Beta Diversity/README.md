@@ -54,7 +54,7 @@ The goal here is to first select for other variables before plotting alpha diver
 *Soil Classification - Beta Diversity PCOA plots*![Beta Diversity - PCOA plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
 
 
-*Compaction Treatment - Beta Diversity PCOA plots*![Beta Diversity - PCOA plots]
+*Compaction Treatment - Beta Diversity PCOA plots*![Beta Diversity - PCOA plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa_compac.png)
 
 ## Taxonomy bar plots
 insert
