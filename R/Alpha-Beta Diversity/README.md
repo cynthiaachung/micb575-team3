@@ -29,9 +29,14 @@ _I will be using Rare1 data for the plots below, unless I see very little data s
 **Explanation:**
 According to the Richness plots above, we can see a large number of points outside the boxplots, indicating that there is a large range of alpha diversity measures within each soil classification OR compaction treatment. This suggests that we need to explore controlling for other variables that make affect alpha diversity measures such as "Site", "Hebacide Use"...
 
+
+
 ### Richness and Evenness
 The goal here is to first select for other variables before plotting alpha diversity richness plots
+
 (note: I am still having issues controlling for variables... working on these plots so to be continued...)
+
+
 
 ### Phylogentic Diversity
 
