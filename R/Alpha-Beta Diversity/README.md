@@ -63,7 +63,10 @@ The goal here is to first select for other variables before plotting alpha diver
 
 *Compaction Treatment - Beta Diversity PCOA plots*![Beta Diversity - PCOA plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa_compac.png)
 
-**Explanation:**  This plot shows visually that compaction treatment C0 and REF are very similar and compaction treatments C1 and C2 are farther away in terms of beta diversity. However it is important to note that there are a few red (C0) and purple (REF) points that are positioned close the C1 and C2. There are also not that many data points for C1 and C2
+**Explanation:**  This plot shows visually that: 
+- compaction treatment C0 and REF are very similar and compaction treatments C1 and C2 are farther away in terms of beta diversity.
+- Important to note that there are a few red (C0) and purple (REF) points that are positioned close the C1 and C2.
+- There are also not that many data points for C1 and C2
 
 ## Taxonomy bar plots
 insert
