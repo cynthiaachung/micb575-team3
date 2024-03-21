@@ -1,4 +1,5 @@
 # Results 👩🏽‍🌾 
+------>>>>>>>>>>>>>DO color blind pallets
 
 ## Rarefaction Curve with R
 
@@ -51,7 +52,7 @@ The goal here is to first select for other variables before plotting alpha diver
 (stats to be continued...)
 
 ## Beta Diversity
-Do paranova
+------>>>>>>>>>>>>>Do paranova
 ### PCOA Plot - Bray-Curtis (Richness and Abundance/Eveness)
 
 *Soil Classification - Beta Diversity PCOA plots*![Beta Diversity - PCOA plots](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
