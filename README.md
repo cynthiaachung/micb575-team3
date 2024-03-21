@@ -2,6 +2,21 @@
 **Team 3:** Cynthia Chung, Hannah Hauch, Ellie Kim, Negar Zaghi, Nicole Howes
 
 # Upcoming Meeting Agenda ✨
+### March 21, 2024
+#### Agenda
+* Discussing Hannah's oral exam feedback
+#### Meeting Notes
+* For the correlation analysis, don't do the logistic regression because we don't need statistical significance > just do the heatmaps
+* Get rid of the NAs, don't try to classify them
+  * Can find indicator species for soil type and compaction, but don't try to look into NAs
+  * It tells a better story if we just do compaction
+  * The NAs are likely a mix of multiple soils, and even if we could figure them out, it wouldn't change or add to the dataset
+* Should find a way to tie the soil component and compaction into each other
+  * In the PCoA Beta-Diversity plot, we can group the similar ones together and then use indicator taxa/differential abundance to look at the effects of compaction within the groups
+  * In the PCoA beta-diversity plot, we cannot distinguish which soil the NAs belong to could be a combination
+* In final manuscript, can say that we don't really know the NAs, but we have hypotheses
+
+# Archive 🗒️
 ### March 14, 2024
 #### Agenda
 * Discussing results of the correlation analyses (Cynthia)
@@ -11,8 +26,6 @@
   * Interpretation: reference group is Soil A, for Soil B compared to Soil A, if it's a positive coefficient it means that there's a greater likeihood that the tree-type (for example) will occur in Soil B then Soil A
 * Core Microbiome
   * (Ellie asked her questions)
-
-# Archive 🗒️
 ### March 7, 2024
 #### Agenda
 * Going over team proposal feedback from Avril
