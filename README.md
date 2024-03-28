@@ -2,6 +2,30 @@
 **Team 3:** Cynthia Chung, Hannah Hauch, Ellie Kim, Negar Zaghi, Nicole Howes
 
 # Upcoming Meeting Agenda ✨
+### March 28, 2024
+#### Agenda
+* Discuss oral exam feedback that's been given so far with Evelyn
+#### Meeting Notes
+* We have the problem of having too many findings (not a bad thing!) but we need to create a more consistent story
+* Negar did some interesting diversity analyses > let's discuss that!
+* Moving forward, filter all the NAs for the figures
+* Figure order in manuscript
+  1. Four panels of alpha diversity (Shannon) for soil classifications separated by OM removal
+  2. Beta diversity (Bray Curtis) for soil classification (justifies grouping the soil, annotate for groups)
+  3. Three panels of alpha diversity (Shannon) for compaction (C1-C3) separated by the OM removal (mention not enough samples for C3)
+  4. Three panels of differential abundance volcano plots for compaction (C1-C3)
+  5. Three panels of alpha diversity (Shannon) for compaction (C1-C3) separated by the three soil clusters
+* Supplemental figures
+  1. Four panels Faith's PD graphs for soil classification separated by OM removal
+  2. Two taxa bar plots (one for soil type, one for compaction)
+  3. Faith's PD graphs for compaction, don't need to separate
+* For the presentation, you'll be making effective slides so that another group can explain it well
+  * Effectiveness for the powerpoint will be graded, the actual presentation is more for completion (deduction of marks will solely be for inability to interpret figures)
+  * Will complete a reflection afterwards
+* Figures 1-2 discusses the soil classification, Figures 3-4 discusses the compaction, Figure 5 will tie it all together > that's our story!
+* Note: Want to finalize the figures by next week, no more analysis beyond this point!
+
+# Archive 🗒️
 ### March 21, 2024
 #### Agenda
 * Discussing Hannah's oral exam feedback
@@ -15,8 +39,6 @@
   * In the PCoA Beta-Diversity plot, we can group the similar ones together and then use indicator taxa/differential abundance to look at the effects of compaction within the groups
   * In the PCoA beta-diversity plot, we cannot distinguish which soil the NAs belong to could be a combination
 * In final manuscript, can say that we don't really know the NAs, but we have hypotheses
-
-# Archive 🗒️
 ### March 14, 2024
 #### Agenda
 * Discussing results of the correlation analyses (Cynthia)
