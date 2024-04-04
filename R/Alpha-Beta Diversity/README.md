@@ -3,7 +3,7 @@
 - Figure 3 stats
 - Figure 3 fix plot asthetics for "separated by soil groups plot"
 - Beta Diversity Bray-Curtis PCOA Plot - remove NAs
-- Fix plot asthetics for taxa-genus plot 
+- Fix plot asthetics for figure 2 pcoa plot and supplemental 2 taxa-genus plot
 
 # Results 👩🏽‍🌾:
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
