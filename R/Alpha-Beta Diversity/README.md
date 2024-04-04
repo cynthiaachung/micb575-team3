@@ -30,7 +30,7 @@ _gg_pcoa_
 - STATS **TO DO**
 - Fix plot asthetics **TO DO**
 
-## Figure 4: 
+## Figure 4 Volcano Plots: 
 - Plot **DONE**
 - Fix plot asthetics **TO DO**
 
@@ -38,6 +38,8 @@ _gg_pcoa_
 -   Color blind pallets 
 -   Bigger axis fonts, make it more legible 
 -   Better titles (or none?) 
+
+___________________________________________________________________________________
 
 ## Rarefaction Curve with R
 
