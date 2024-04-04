@@ -15,6 +15,7 @@ Figure 1: Alpha Diversity Richness - Controlled for LTSP Treatment
 Figure 2:
 - Beta Diversity Bray-Curtis PCOA Plot **DONE**
 - Remove NAs, having trouble subset_samples not working: **TO DO**
+
 Code:
 
 _phylobj_rare_noNAs <- subset_samples(phylobj_rare, !is.na(Soil.Classification) & Soil.Classification != "NA")_
