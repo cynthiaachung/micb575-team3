@@ -17,20 +17,10 @@ OR......... colour blind palette:
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
 
 ## Figure 2:
-- Beta Diversity Bray-Curtis PCOA Plot **DONE**
-- Remove NAs, having trouble subset_samples not working: **TO DO**
+- Beta Diversity Bray-Curtis PCOA Plot **DONE but could not remove NAs**
 
-Code:
+![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
 
-_phylobj_rare_noNAs <- subset_samples(phylobj_rare, !is.na(Soil.Classification) & Soil.Classification != "NA")_
-
-_pcoa_bc <- ordinate(phylobj_rare_noNAs, method="PCoA", distance=bc_dm)_
-
-_gg_pcoa <- plot_ordination(phylobj_rare_noNAs, pcoa_bc, color = "Soil.Classification") +
-  labs(pch="Soil Classification", col = "Soil Classification") + 
-  stat_ellipse(level = 0.95)_
-
-_gg_pcoa_
 - Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
 - Fix plot asthetics **TO DO**
 
