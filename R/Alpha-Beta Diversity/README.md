@@ -12,10 +12,8 @@
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 -----------stats figure 1: just talk about trends
 -----------stats supplemental 1: do KW test
-- 4 panels, REF, OM1, OM2, OM3 **DONE!!**
-![Figure 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels.png)
-
-OR......... Colour blind friendly palette:
+- 4 panels, REF, OM1, OM2, OM3 
+Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
 ### K-W analysis **DONE**
@@ -38,11 +36,7 @@ Kruskal-Wallis chi-squared = 10.479, df = 4, p-value = 0.03309
 
 ### Supplemental: Phylogenetic diversity soil classification **DONE**
 ----------------stats do KW
-
-![Supplemental 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1.png)
-
-OR......... colour blind palette:
-
+colour blind palette:
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
 
 ## Figure 2 Beta Diversity Soil Classification:
@@ -64,9 +58,7 @@ OR......... colour blind palette:
 ![figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure3_richness_compac_soilgroups.png)
 
 ### Controlled for LTSP
-![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_LTSP.png)
-
-OR color blind pallet:
+color blind pallet:
 
 ![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 - STATS **TO DO**
