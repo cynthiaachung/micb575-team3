@@ -5,7 +5,7 @@
 ![Figure 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels.png)
 - Do K-W analysis **TO DO**
 - Supplemental: Phylogenetic diversity soil classification **DONE**
-- Fix plot asthetics **TO DO**
+- Fix plot asthetics **just need color blind pallet**
 
 ## Figure 2:
 - Beta Diversity Bray-Curtis PCOA Plot **DONE**
