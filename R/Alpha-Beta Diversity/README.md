@@ -1,6 +1,6 @@
 # Results 👩🏽‍🌾 & To dos:
 
-## Figure 1: Alpha Diversity Richness - Controlled for LTSP Treatment
+## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 - 4 panels, REF, OM1, OM2, OM3 **DONE!!**
 ![Figure 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels.png)
 
@@ -16,7 +16,7 @@ OR......... colour blind palette:
 
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
 
-## Figure 2:
+## Figure 2 Beta Diversity Soil Classification:
 - Beta Diversity Bray-Curtis PCOA Plot **DONE but could not remove NAs**
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
@@ -27,12 +27,18 @@ OR......... colour blind palette:
 ![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxa_genus.png)
 - Fix plot asthetics **TO DO**
 
-## Figure 3: Alpha Diversity Richness Compaction
+## Figure 3: Alpha Diversity Richness Compaction, 1)separated in soil groups 2)controlled for LTSP
 - Filter for soil groups **DONE**
 - Put in 3 panels beside each other **DONE, may need to adjust asthetics**
 
 ![figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure3_richness_compac_soilgroups.png)
 
+### Controlled for LTSP
+![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_LTSP.png)
+
+OR color blind pallet:
+
+![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 - STATS **TO DO**
 - Fix plot asthetics **TO DO**
 
