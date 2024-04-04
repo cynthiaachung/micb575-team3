@@ -23,6 +23,10 @@ Figure 3: Alpha Diversity Richness Compaction
 - STATS **TO DO**
 - Fix plot asthetics **TO DO**
 
+Figure 4: 
+- Plot **DONE**
+- Fix plot asthetics **TO DO**
+
 Plot asthetics: **TO DO**
 -   Color blind pallets 
 -   Bigger axis fonts, make it more legible 
