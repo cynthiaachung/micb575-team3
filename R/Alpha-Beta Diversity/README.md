@@ -52,10 +52,6 @@ Rarefaction parameters:
 
 _I will be using Rare1 data for the plots below, unless I see very little data shown in the plots, then I will change to Rare2 and do the plots all again, but for now, only Rare1 is used_
 
-
-______________________________________________________________________________________________________________
-
-
 ## Alpha Diversity
 
 ### We Must First Control for other Variables!!!
