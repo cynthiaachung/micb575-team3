@@ -11,13 +11,12 @@
 
 # Results 👩🏽‍🌾:
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
------------stats figure 1: just talk about trends
 -----------stats supplemental 1: do KW test
 - 4 panels, REF, OM1, OM2, OM3 
 Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
-### K-W analysis **DONE**
+### K-W analysis
 
 For REF : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03456481 
 
@@ -27,6 +26,7 @@ For OM2 : The difference in Shannon diversity across soil classifications is sta
 
 For OM3 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03308952 
 
+Note: Talk about trends
 
 
 ### Supplemental: Phylogenetic diversity soil classification **DONE**
