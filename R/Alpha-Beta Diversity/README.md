@@ -10,6 +10,12 @@ OR......... Colour blind friendly palette:
 - Do K-W analysis **TO DO**
 - Supplemental: Phylogenetic diversity soil classification **DONE**
 
+![Supplemental 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1.png)
+
+OR......... colour blind palette:
+
+![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
+
 ## Figure 2:
 - Beta Diversity Bray-Curtis PCOA Plot **DONE**
 - Remove NAs, having trouble subset_samples not working: **TO DO**
