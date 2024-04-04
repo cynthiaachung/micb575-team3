@@ -1,5 +1,11 @@
-# Results 👩🏽‍🌾 & To dos:
+## Outstanding to dos:
+- Figure 1 K-W analysis
+- Figure 3 stats
+- Figure 3 fix plot asthetics for "separated by soil groups plot"
+- Beta Diversity Bray-Curtis PCOA Plot - remove NAs
+- Fix plot asthetics for taxa-genus plot 
 
+# Results 👩🏽‍🌾:
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 - 4 panels, REF, OM1, OM2, OM3 **DONE!!**
 ![Figure 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels.png)
@@ -8,7 +14,7 @@ OR......... Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
 - Do K-W analysis **TO DO**
-- Supplemental: Phylogenetic diversity soil classification **DONE**
+### Supplemental: Phylogenetic diversity soil classification **DONE**
 
 ![Supplemental 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1.png)
 
@@ -21,7 +27,6 @@ OR......... colour blind palette:
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
 
-- Remove NAs form plot **TO DO**
 - Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
 
 ![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxa_genus.png)
