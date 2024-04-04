@@ -2,6 +2,22 @@
 **Team 3:** Cynthia Chung, Hannah Hauch, Ellie Kim, Negar Zaghi, Nicole Howes
 
 # Upcoming Meeting Agenda ✨
+### April 4, 2024
+#### Agenda
+* Discuss figures for the manuscript
+#### Meeting Notes
+* Figure order in manuscript > **only difference is order of figures**
+  1. Four panels of alpha diversity (Shannon) for soil classifications separated by OM removal
+  2. Beta diversity (Bray Curtis) for soil classification (justifies grouping the soil, annotate for groups)
+  3. Three panels of alpha diversity (Shannon) for compaction (C1-C3) separated by the OM removal (mention not enough samples for C3)
+  4. Three panels of alpha diversity (Shannon) for compaction (C1-C3) separated by the three soil clusters
+  5. Three panels of differential abundance volcano plots for compaction (C1-C3)
+* Supplemental figures
+  1. Four panels Faith's PD graphs for soil classification separated by OM removal
+  2. Two taxa bar plots (one for soil type, one for compaction)
+  3. Faith's PD graphs for compaction, don't need to separate
+
+# Archive 🗒️
 ### March 28, 2024
 #### Agenda
 * Discuss oral exam feedback that's been given so far with Evelyn
@@ -24,8 +40,6 @@
   * Will complete a reflection afterwards
 * Figures 1-2 discusses the soil classification, Figures 3-4 discusses the compaction, Figure 5 will tie it all together > that's our story!
 * Note: Want to finalize the figures by next week, no more analysis beyond this point!
-
-# Archive 🗒️
 ### March 21, 2024
 #### Agenda
 * Discussing Hannah's oral exam feedback
