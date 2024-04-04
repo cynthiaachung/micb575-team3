@@ -1,5 +1,32 @@
 # Results 👩🏽‍🌾 
------->>>>>>>>>>>>>DO color blind pallets
+
+
+
+
+
+# To do:
+
+Figure 1: Alpha Diversity Richness - Controlled for LTSP Treatment
+- 4 panels, REF, OM1, OM2, OM3 **TO DO**
+- Do K-W analysis **TO DO**
+- Supplemental: Phylogenetic diversity soil classification **DONE**
+- Fix plot asthetics **TO DO**
+
+Figure 2:
+- Beta Diversity Bray-Curtis PCOA Plot **DONE**
+- Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
+- Fix plot asthetics **TO DO**
+
+Figure 3: Alpha Diversity Richness Compaction
+- Filter for soil groups **TO DO**
+- Put in 3 panels beside each other **TO DO**
+- STATS **TO DO**
+- Fix plot asthetics **TO DO**
+
+- Plot asthetics:
+-   Color blind pallets
+-   Bigger axis fonts, make it more legible
+-   Better titles (or none?)
 
 ## Rarefaction Curve with R
 
@@ -11,6 +38,10 @@ Rarefaction parameters:
 - Rare2 = 1500
 
 _I will be using Rare1 data for the plots below, unless I see very little data shown in the plots, then I will change to Rare2 and do the plots all again, but for now, only Rare1 is used_
+
+
+______________________________________________________________________________________________________________
+
 
 ## Alpha Diversity
 
