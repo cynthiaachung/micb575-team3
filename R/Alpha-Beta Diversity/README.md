@@ -18,22 +18,13 @@ Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
 ### K-W analysis **DONE**
-  
-#### REF:
-data:  Shannon by Soil.Classification
-Kruskal-Wallis chi-squared = 12.016, df = 5, p-value = 0.03456
 
-#### OM1:
-data:  Shannon by Soil.Classification
-Kruskal-Wallis chi-squared = 27.148, df = 6, p-value = 0.0001358
+For REF : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03456481 
+For OM1 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.0001358425 
+For OM2 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 5.283175e-05 
+For OM3 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03308952 
 
-#### OM2:
-data:  Shannon by Soil.Classification
-Kruskal-Wallis chi-squared = 29.324, df = 6, p-value = 5.283e-05
 
-#### OM3:
-data:  Shannon by Soil.Classification
-Kruskal-Wallis chi-squared = 10.479, df = 4, p-value = 0.03309
 
 ### Supplemental: Phylogenetic diversity soil classification **DONE**
 ----------------stats do KW
