@@ -41,6 +41,7 @@ OR......... colour blind palette:
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
 
 ## Figure 2 Beta Diversity Soil Classification:
+------------------do stats, module 15
 - Beta Diversity Bray-Curtis PCOA Plot **DONE but could not remove NAs**
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
