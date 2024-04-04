@@ -52,6 +52,7 @@ OR......... colour blind palette:
 - Fix plot asthetics **TO DO**
 
 ## Figure 3: Alpha Diversity Richness Compaction, 1)separated in soil groups 2)controlled for LTSP
+-----------------Supplemental Faith's PD
 
 ### Separated by soil groups 
 - Put in 3 panels beside each other **DONE, may need to adjust asthetics**
