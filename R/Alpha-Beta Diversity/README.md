@@ -13,20 +13,21 @@
 OR......... Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
-- Do K-W analysis **DONE**
-REF:
+### K-W analysis **DONE**
+  
+#### REF:
 data:  Shannon by Soil.Classification
 Kruskal-Wallis chi-squared = 12.016, df = 5, p-value = 0.03456
 
-OM1:
+#### OM1:
 data:  Shannon by Soil.Classification
 Kruskal-Wallis chi-squared = 27.148, df = 6, p-value = 0.0001358
 
-OM2:
+#### OM2:
 data:  Shannon by Soil.Classification
 Kruskal-Wallis chi-squared = 29.324, df = 6, p-value = 5.283e-05
 
-OM3:
+#### OM3:
 data:  Shannon by Soil.Classification
 Kruskal-Wallis chi-squared = 10.479, df = 4, p-value = 0.03309
 ### Supplemental: Phylogenetic diversity soil classification **DONE**
