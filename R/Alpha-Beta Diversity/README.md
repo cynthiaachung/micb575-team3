@@ -1,7 +1,7 @@
 # Results 👩🏽‍🌾 & To dos:
 
 ## Figure 1: Alpha Diversity Richness - Controlled for LTSP Treatment
-- 4 panels, REF, OM1, OM2, OM3 **TO DO**
+- 4 panels, REF, OM1, OM2, OM3 **DONE!!**
 - Do K-W analysis **TO DO**
 - Supplemental: Phylogenetic diversity soil classification **DONE**
 - Fix plot asthetics **TO DO**
