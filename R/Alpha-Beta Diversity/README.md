@@ -30,9 +30,20 @@ Note: Talk about trends
 
 
 ### Supplemental: Phylogenetic diversity soil classification **DONE**
-----------------stats do KW
+
 colour blind palette:
+
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
+
+### K-W analysis
+
+For  REF : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.004645887 
+
+For  OM1 : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 6.034932e-05 
+
+For  OM2 : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.000103259 
+
+For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.01202364 
 
 ## Figure 2 Beta Diversity Soil Classification:
 ------------------do stats, module 15, soil group 1, 2 and 3 are they different
