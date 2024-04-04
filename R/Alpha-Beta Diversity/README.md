@@ -23,6 +23,8 @@ OR......... colour blind palette:
 
 - Remove NAs form plot **TO DO**
 - Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
+
+![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxa_genus.png)
 - Fix plot asthetics **TO DO**
 
 ## Figure 3: Alpha Diversity Richness Compaction
