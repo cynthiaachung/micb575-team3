@@ -1,4 +1,5 @@
 ## Ready for Slides
+**Note below are only the color blind friendly plots, the normal ones can be found in the files**
 
 
 
