@@ -20,8 +20,11 @@ Colour blind friendly palette:
 ### K-W analysis **DONE**
 
 For REF : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03456481 
+
 For OM1 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.0001358425 
+
 For OM2 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 5.283175e-05 
+
 For OM3 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03308952 
 
 
