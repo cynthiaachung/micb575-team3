@@ -21,6 +21,7 @@ OR......... colour blind palette:
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
 
+- Remove NAs form plot **TO DO**
 - Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
 - Fix plot asthetics **TO DO**
 
