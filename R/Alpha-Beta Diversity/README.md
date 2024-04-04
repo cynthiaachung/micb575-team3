@@ -6,7 +6,8 @@
 
 # Results 👩🏽‍🌾:
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
------------stats: just talk about trends
+-----------stats figure 1: just talk about trends
+-----------stats supplemental 1: do KW test
 - 4 panels, REF, OM1, OM2, OM3 **DONE!!**
 ![Figure 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels.png)
 
