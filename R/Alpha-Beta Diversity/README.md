@@ -19,9 +19,9 @@ Code:
 
 _phylobj_rare_noNAs <- subset_samples(phylobj_rare, !is.na(Soil.Classification) & Soil.Classification != "NA")_
 
-_pcoa_bc <- ordinate(phylobj_rare_noNAs, method="PCoA", distance=bc_dm)
+_pcoa_bc <- ordinate(phylobj_rare_noNAs, method="PCoA", distance=bc_dm)_
 
-gg_pcoa <- plot_ordination(phylobj_rare_noNAs, pcoa_bc, color = "Soil.Classification") +
+_gg_pcoa <- plot_ordination(phylobj_rare_noNAs, pcoa_bc, color = "Soil.Classification") +
   labs(pch="Soil Classification", col = "Soil Classification") + 
   stat_ellipse(level = 0.95)_
 
