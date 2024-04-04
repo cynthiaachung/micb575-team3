@@ -1,18 +1,12 @@
-# Results 👩🏽‍🌾 
+# Results 👩🏽‍🌾 & To dos:
 
-
-
-
-
-# To do:
-
-Figure 1: Alpha Diversity Richness - Controlled for LTSP Treatment
+## Figure 1: Alpha Diversity Richness - Controlled for LTSP Treatment
 - 4 panels, REF, OM1, OM2, OM3 **TO DO**
 - Do K-W analysis **TO DO**
 - Supplemental: Phylogenetic diversity soil classification **DONE**
 - Fix plot asthetics **TO DO**
 
-Figure 2:
+## Figure 2:
 - Beta Diversity Bray-Curtis PCOA Plot **DONE**
 - Remove NAs, having trouble subset_samples not working: **TO DO**
 
@@ -30,17 +24,17 @@ _gg_pcoa_
 - Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
 - Fix plot asthetics **TO DO**
 
-Figure 3: Alpha Diversity Richness Compaction
+## Figure 3: Alpha Diversity Richness Compaction
 - Filter for soil groups **TO DO**
 - Put in 3 panels beside each other **TO DO**
 - STATS **TO DO**
 - Fix plot asthetics **TO DO**
 
-Figure 4: 
+## Figure 4: 
 - Plot **DONE**
 - Fix plot asthetics **TO DO**
 
-Plot asthetics: **TO DO**
+## Plot asthetics: **TO DO**
 -   Color blind pallets 
 -   Bigger axis fonts, make it more legible 
 -   Better titles (or none?) 
