@@ -1,3 +1,7 @@
+## Ready for Slides
+
+
+
 ## Outstanding to dos:
 - Figure 3 stats
 - Figure 3 fix plot asthetics for "separated by soil groups plot"
@@ -33,6 +37,7 @@ data:  Shannon by Soil.Classification
 Kruskal-Wallis chi-squared = 10.479, df = 4, p-value = 0.03309
 
 ### Supplemental: Phylogenetic diversity soil classification **DONE**
+----------------stats do KW
 
 ![Supplemental 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1.png)
 
