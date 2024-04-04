@@ -38,7 +38,7 @@ OR......... colour blind palette:
 - Plot **DONE**
 - Fix plot asthetics **TO DO**
 
-## Plot asthetics: **TO DO**
+## Plot asthetics: **TO DO for some plots**
 -   Color blind pallets 
 -   Bigger axis fonts, make it more legible 
 -   Better titles (or none?) 
