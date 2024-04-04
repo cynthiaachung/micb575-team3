@@ -4,12 +4,11 @@
 - 4 panels, REF, OM1, OM2, OM3 **DONE!!**
 ![Figure 1](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels.png)
 
-Colour blind friendly palette:
+OR......... Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
 - Do K-W analysis **TO DO**
 - Supplemental: Phylogenetic diversity soil classification **DONE**
-- Fix plot asthetics **just need color blind pallet**
 
 ## Figure 2:
 - Beta Diversity Bray-Curtis PCOA Plot **DONE**
