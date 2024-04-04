@@ -26,8 +26,11 @@ OR......... colour blind palette:
 - Fix plot asthetics **TO DO**
 
 ## Figure 3: Alpha Diversity Richness Compaction
-- Filter for soil groups **TO DO**
-- Put in 3 panels beside each other **TO DO**
+- Filter for soil groups **DONE**
+- Put in 3 panels beside each other **DONE, may need to adjust asthetics**
+
+![figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure3_richness_compac_soilgroups.png)
+
 - STATS **TO DO**
 - Fix plot asthetics **TO DO**
 
