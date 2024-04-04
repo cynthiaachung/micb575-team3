@@ -28,9 +28,9 @@ OR......... colour blind palette:
 - Fix plot asthetics **TO DO**
 
 ## Figure 3: Alpha Diversity Richness Compaction, 1)separated in soil groups 2)controlled for LTSP
-- Filter for soil groups **DONE**
-- Put in 3 panels beside each other **DONE, may need to adjust asthetics**
 
+### Separated by soil groups 
+- Put in 3 panels beside each other **DONE, may need to adjust asthetics**
 ![figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure3_richness_compac_soilgroups.png)
 
 ### Controlled for LTSP
@@ -40,7 +40,7 @@ OR color blind pallet:
 
 ![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 - STATS **TO DO**
-- Fix plot asthetics **TO DO**
+- Fix plot asthetics **only for "separated by soil groups plot"**
 
 ## Figure 4 Volcano Plots: 
 - Plot **DONE**
