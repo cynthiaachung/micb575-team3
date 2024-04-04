@@ -23,10 +23,10 @@ Figure 3: Alpha Diversity Richness Compaction
 - STATS **TO DO**
 - Fix plot asthetics **TO DO**
 
-- Plot asthetics:
--   Color blind pallets
--   Bigger axis fonts, make it more legible
--   Better titles (or none?)
+Plot asthetics: **TO DO**
+-   Color blind pallets 
+-   Bigger axis fonts, make it more legible 
+-   Better titles (or none?) 
 
 ## Rarefaction Curve with R
 
