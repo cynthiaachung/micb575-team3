@@ -2,7 +2,7 @@
 - Figure 1 and stats DONE
 - Supplemental 1 with stats DONE
 - Figure 2 plots and stats DONE
-- Figure 4 plots DONE
+- Figure 4 plots andj stats DONE
 
 **Note below are only the color blind friendly plots, the normal ones can also be found in the files section if needed**
 
@@ -91,8 +91,7 @@ For OM2 : The difference in Shannon diversity across compaction treatment is sta
 
 
 ## Figure 5 Volcano Plots: 
-- Plot **DONE**
-- Fix plot asthetics **TO DO**
+see it's folder
 
 ## Plot asthetics: **TO DO, some plots already done**
 -   Color blind pallet 
