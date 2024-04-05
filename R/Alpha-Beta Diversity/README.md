@@ -1,7 +1,9 @@
 # Plots Ready for Slides 👩🏻‍🏫
 **Note below are only the color blind friendly plots, the normal ones can also be found in the files section if needed**
-- Figure 1 and supplemental 1 with all the stats are done
-
+- Figure 1 and stats
+- Supplemental 1 with stats 
+- Figure 2 plots
+- 
 
 ## Outstanding to dos:
 - Figure 3 stats
