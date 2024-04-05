@@ -1,4 +1,4 @@
-# Plots Ready for Slides 👩🏻‍🏫
+# Plots Ready for Slides 🏄🏽‍♀️
 - Figure 1 and stats DONE
 - Supplemental 1 with stats DONE
 - Figure 2 plots and stats DONE
