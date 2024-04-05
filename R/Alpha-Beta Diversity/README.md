@@ -19,7 +19,7 @@
 Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
-### K-W analysis
+### K-W stats analysis
 
 For REF : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03456481 
 
@@ -83,7 +83,7 @@ color blind pallet:
 
 ![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 
-#### STATS
+#### K-W stats analysis 
 
 For OM1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.324537 
 
