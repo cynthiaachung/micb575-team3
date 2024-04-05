@@ -2,9 +2,11 @@
 Figure 1:
 - Figure 1 and stats DONE
 - Supplemental 1 with stats DONE
+
 Figure 2:
 - Figure 2 plots and stats DONE
 - Supplemental 2 DONE (don't need stats)
+
 Figure 4:
 - Figure 4 plots and stats DONE
 
