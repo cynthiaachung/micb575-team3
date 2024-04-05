@@ -6,8 +6,7 @@
 ## Outstanding to dos:
 - Figure 3 stats
 - Figure 3 fix plot asthetics for "separated by soil groups plot"
-- Beta Diversity Bray-Curtis PCOA Plot - remove NAs
-- Fix plot asthetics for figure 2 pcoa plot and supplemental 2 taxa-genus plot
+- Fix plot asthetics for supplemental 2 taxa-genus plot
 
 # Results 👩🏽‍🌾:
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
@@ -47,9 +46,9 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 
 ## Figure 2 Beta Diversity Soil Classification:
 ------------------do stats, module 15, soil group 1, 2 and 3 are they different
-- Beta Diversity Bray-Curtis PCOA Plot **DONE but could not remove NAs**
+- Beta Diversity Bray-Curtis PCOA Plot **DONE**
 
-![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_pcoa.png)
+![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2_PCOA_soil.classification.png)
 
 - Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
 
