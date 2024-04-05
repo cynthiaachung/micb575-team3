@@ -17,7 +17,7 @@ Figure 4:
 - Figure 3 fix plot asthetics for "separated by soil groups plot"
 - Supplemental 3
 
-# Results 👩🏽‍🌾:
+# Results 👩🏽‍🌾
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 
 - 4 panels, REF, OM1, OM2, OM3 
