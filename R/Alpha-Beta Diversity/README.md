@@ -65,7 +65,7 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 
 **Result: Pr(>F) values for Soil.Classification is 0.001 meaning there is a significant difference**
 
-- Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
+- Supplemental: Taxa Bar Plot Genus Soil Classification **DONE but need to look better**
 
 ![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxa_genus.png)
 - Fix plot asthetics **TO DO**
@@ -82,8 +82,13 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 color blind pallet:
 
 ![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
-- STATS **TO DO**
-- Fix plot asthetics **only for "separated by soil groups plot"**
+
+#### STATS
+
+For OM1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.324537 
+
+For OM2 : The difference in Shannon diversity across compaction treatment is statistically significant. P-value: 0.006780397 
+
 
 ## Figure 5 Volcano Plots: 
 - Plot **DONE**
