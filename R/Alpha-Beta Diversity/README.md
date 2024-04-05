@@ -10,6 +10,8 @@ Figure 2:
 Figure 4:
 - Figure 4 plots and stats DONE
 
+For figure 5, see other folder
+
 **Note below are only the color blind friendly plots, the normal ones can also be found in the files section if needed**
 
 ## Outstanding to dos:
