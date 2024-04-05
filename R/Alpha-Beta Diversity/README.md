@@ -58,18 +58,8 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 ![Soils grouped colorblind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped_colorblind.png)
 
 ### Permanova Stats
-Permutation test for adonis under reduced model
-Terms added sequentially (first to last)
-Permutation: free
-Number of permutations: 999
 
-adonis2(formula = dm_bray ~ Soil.Classification, data = samp_dat_wdiv)
-                     Df SumOfSqs      R2      F Pr(>F)    
-Soil.Classification   2   11.339 0.10952 15.496  0.001 ***
-Residual            252   92.194 0.89048                  
-Total               254  103.533 1.00000                  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+![permanova](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Screen%20Shot%202024-04-04%20at%2010.07.11%20PM.png)
 
 **Result: Pr(>F) values for Soil.Classification is 0.001 meaning there is a significant difference**
 
