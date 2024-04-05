@@ -1,9 +1,10 @@
 # Plots Ready for Slides 👩🏻‍🏫
+- Figure 1 and stats DONE
+- Supplemental 1 with stats DONE
+- Figure 2 plots and stats DONE
+- Figure 4 plots DONE
+
 **Note below are only the color blind friendly plots, the normal ones can also be found in the files section if needed**
-- Figure 1 and stats
-- Supplemental 1 with stats 
-- Figure 2 plots and stats
-- 
 
 ## Outstanding to dos:
 - Supplemental 2 Taxa genus plot for soil make it look better (larger font, colorblind color pallet)
