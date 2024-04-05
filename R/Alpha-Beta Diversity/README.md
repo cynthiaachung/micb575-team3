@@ -75,6 +75,7 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 - Put in 3 panels beside each other **DONE, may need to adjust asthetics**
 ![figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure3_richness_compac_soilgroups.png)
 
+## Figure 4: Alpha Diversity compaction controlled for LTSP treatment
 ### Controlled for LTSP
 color blind pallet:
 
@@ -82,7 +83,7 @@ color blind pallet:
 - STATS **TO DO**
 - Fix plot asthetics **only for "separated by soil groups plot"**
 
-## Figure 4 Volcano Plots: 
+## Figure 5 Volcano Plots: 
 - Plot **DONE**
 - Fix plot asthetics **TO DO**
 
