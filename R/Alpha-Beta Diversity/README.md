@@ -80,7 +80,7 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 ### Controlled for LTSP
 color blind pallet:
 
-![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
+![Figure 4](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_4_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 
 #### K-W stats analysis 
 
