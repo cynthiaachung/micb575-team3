@@ -9,6 +9,7 @@
 - Supplemental 2 Taxa genus plot for soil make it look better (larger font, colorblind color pallet)
 - Figure 3 stats
 - Figure 3 fix plot asthetics for "separated by soil groups plot"
+- Supplemental 3
 
 # Results 👩🏽‍🌾:
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
