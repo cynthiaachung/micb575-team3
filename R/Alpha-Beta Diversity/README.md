@@ -45,10 +45,17 @@ For  OM2 : The difference in Faith's Phylogenetic Diversity across soil classifi
 For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.01202364 
 
 ## Figure 2 Beta Diversity Soil Classification:
-------------------do stats, module 15, soil group 1, 2 and 3 are they different
 - Beta Diversity Bray-Curtis PCOA Plot **DONE**
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2_PCOA_soil.classification.png)
+
+- Soils grouped:
+![Soils grouped](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped.png)
+
+- Soils grouped color blind pallet:
+![Soils grouped colorblind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped_colorblind.png)
+
+- ------------------do stats, module 15, soil group 1, 2 and 3 are they different
 
 - Supplemental: Taxa Bar Plot Genus Soil Classification **DONE**
 
