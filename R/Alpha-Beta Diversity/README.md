@@ -2,13 +2,13 @@
 **Note below are only the color blind friendly plots, the normal ones can also be found in the files section if needed**
 - Figure 1 and stats
 - Supplemental 1 with stats 
-- Figure 2 plots
+- Figure 2 plots and stats
 - 
 
 ## Outstanding to dos:
+- Supplemental 2 Taxa genus plot for soil make it look better (larger font, colorblind color pallet)
 - Figure 3 stats
 - Figure 3 fix plot asthetics for "separated by soil groups plot"
-- Fix plot asthetics for supplemental 2 taxa-genus plot
 
 # Results 👩🏽‍🌾:
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
