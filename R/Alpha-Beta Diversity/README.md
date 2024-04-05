@@ -65,10 +65,9 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 
 **Result: Pr(>F) values for Soil.Classification is 0.001 meaning there is a significant difference**
 
-- Supplemental: Taxa Bar Plot Genus Soil Classification **DONE but need to look better**
+### Supplemental 2: Taxa Bar Plot Genus Soil Classification **DONE**
 
-![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/plot_taxa_genus.png)
-- Fix plot asthetics **TO DO**
+![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_2_TaxaBarPlot_colorblind.png)
 
 ## Figure 3: Alpha Diversity Richness Compaction, 1)separated in soil groups 2)controlled for LTSP
 -----------------Supplemental Faith's PD
