@@ -8,7 +8,8 @@ Figure 2:
 - Supplemental 2 DONE (don't need stats)
 
 Figure 3:
-- Plot and stats
+- Figure 3 Plot and stats
+- Supplemental 3 and stats done
 
 Figure 4:
 - Figure 4 plot and stats DONE
@@ -59,7 +60,7 @@ For  OM2 : The difference in Faith's Phylogenetic Diversity across soil classifi
 For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.01202364 
 
 ## Figure 2 Beta Diversity Soil Classification:
-- Beta Diversity Bray-Curtis PCOA Plot **DONE**
+- Beta Diversity Bray-Curtis PCOA Plot 
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2_PCOA_soil.classification.png)
 
@@ -79,8 +80,7 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 
 ![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_2_TaxaBarPlot_colorblind.png)
 
-## Figure 3: Alpha Diversity Richness Compaction, 1)separated in soil groups 2)controlled for LTSP
------------------Supplemental Faith's PD
+## Figure 3: Alpha Diversity Richness Compaction, controlled by soil group
 
 ### Separated by soil groups 
 
@@ -93,6 +93,14 @@ For Soil Group 1 : The difference in Shannon diversity across compaction treatme
 For Soil Group 2 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.2529662 
 
 For Soil Group 3 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.2782093 
+
+### Supplemental 3 Faith's PD, compaction treatment
+
+![Supplemental 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_3_colorblind.png)
+
+### Supplemental 3 stats KW
+
+The difference in Faith's Phylogenetic Diversity across Compaction Treatment is not statistically significant. P-value: 0.2585947 
 
 ## Figure 4: Alpha Diversity compaction controlled for LTSP treatment
 ### Controlled for LTSP
