@@ -59,6 +59,8 @@ For  OM2 : The difference in Faith's Phylogenetic Diversity across soil classifi
 
 For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.01202364 
 
+___________________________________________________________________________________
+
 ## Figure 2 Beta Diversity Soil Classification:
 - Beta Diversity Bray-Curtis PCOA Plot 
 
@@ -79,6 +81,8 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 ### Supplemental 2: Taxa Bar Plot Genus Soil Classification **DONE**
 
 ![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_2_TaxaBarPlot_colorblind.png)
+
+___________________________________________________________________________________
 
 ## Figure 3: Alpha Diversity Richness Compaction, controlled by soil group
 
@@ -102,8 +106,12 @@ For Soil Group 3 : The difference in Shannon diversity across compaction treatme
 
 The difference in Faith's Phylogenetic Diversity across Compaction Treatment is not statistically significant. P-value: 0.2585947 
 
+___________________________________________________________________________________
+
 ## Figure 4: Alpha Diversity compaction controlled for LTSP treatment
+
 ### Controlled for LTSP
+
 color blind pallet:
 
 ![Figure 4](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_4_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
@@ -114,16 +122,13 @@ For OM1 : The difference in Shannon diversity across compaction treatment is not
 
 For OM2 : The difference in Shannon diversity across compaction treatment is statistically significant. P-value: 0.006780397 
 
+___________________________________________________________________________________
 
 ## Figure 5 Volcano Plots: 
-see it's folder
-
-## Plot asthetics: **TO DO, some plots already done**
--   Color blind pallet 
--   Bigger axis fonts (size=14), make it more legible 
--   Better titles (or none?) 
+see other folder
 
 ___________________________________________________________________________________
+# OLD DATA BELOW, NOT USED
 
 ## Rarefaction Curve with R
 
