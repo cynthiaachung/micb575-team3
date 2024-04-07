@@ -95,7 +95,7 @@ For Soil Group 3 : The difference in Shannon diversity across compaction treatme
 ### Controlled for LTSP
 color blind pallet:
 
-![Figure 4]()
+![Figure 4](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_4_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 
 #### K-W stats analysis 
 
