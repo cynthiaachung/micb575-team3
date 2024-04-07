@@ -81,7 +81,7 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 
 ### Separated by soil groups 
 
-![Figure 3]()
+![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_soilgroup_colorblind.png)
 
 ### KW STATS
 
@@ -95,7 +95,7 @@ For Soil Group 3 : The difference in Shannon diversity across compaction treatme
 ### Controlled for LTSP
 color blind pallet:
 
-![Figure 4](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_4_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
+![Figure 4]()
 
 #### K-W stats analysis 
 
