@@ -13,6 +13,7 @@ Figure 3:
 
 Figure 4:
 - Figure 4 plot and stats DONE
+- (no supplemental)
 
 For figure 5, see other folder
 
