@@ -18,11 +18,6 @@ For figure 5, see other folder
 
 **Note below are only the color blind friendly plots, the normal ones can also be found in the files section if needed**
 
-## Outstanding to dos:
-- Figure 3 stats
-- Figure 3 fix plot asthetics for "separated by soil groups plot"
-- Supplemental 3
-
 # Results 👩🏽‍🌾
 ## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 
