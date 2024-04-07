@@ -4,11 +4,14 @@ Figure 1:
 - Supplemental 1 with stats DONE
 
 Figure 2:
-- Figure 2 plots and stats DONE
+- Figure 2 plot and stats DONE
 - Supplemental 2 DONE (don't need stats)
 
+Figure 3:
+- Plot and stats
+
 Figure 4:
-- Figure 4 plots and stats DONE
+- Figure 4 plot and stats DONE
 
 For figure 5, see other folder
 
