@@ -22,8 +22,6 @@ ________________________________________________________________________________
 
 # Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 
-- 4 panels, REF, OM1, OM2, OM3 
-Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
 ## K-W stats analysis
@@ -36,12 +34,10 @@ For OM2 : The difference in Shannon diversity across soil classifications is sta
 
 For OM3 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03308952 
 
-Note: Talk about trends
+Note from prof: Talk about trends
 
 
 ## Supplemental: Phylogenetic diversity soil classification **DONE**
-
-colour blind palette:
 
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
 
@@ -57,22 +53,21 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 
 ___________________________________________________________________________________
 
-# Figure 2 Beta Diversity Soil Classification:
-- Beta Diversity Bray-Curtis PCOA Plot 
+# Figure 2 Beta Diversity Bray-Curtis PCOA plot - Soil Classification:
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2_PCOA_soil.classification.png)
 
-- Soils grouped:
-![Soils grouped](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped.png)
-
-- Soils grouped color blind pallet:
-![Soils grouped colorblind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped_colorblind.png)
-
 ## Permanova Stats
+
+**Result: Pr(>F) values for Soil.Classification is 0.001 meaning there is a significant difference**
 
 ![permanova](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Screen%20Shot%202024-04-04%20at%2010.07.11%20PM.png)
 
-**Result: Pr(>F) values for Soil.Classification is 0.001 meaning there is a significant difference**
+## Soils grouped if plot needed:
+![Soils grouped](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped.png)
+
+## Soils grouped color blind pallet, if plot needed:
+![Soils grouped colorblind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped_colorblind.png)
 
 ## Supplemental 2: Taxa Bar Plot Genus Soil Classification **DONE**
 
