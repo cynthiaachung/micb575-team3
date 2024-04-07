@@ -80,8 +80,16 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 -----------------Supplemental Faith's PD
 
 ### Separated by soil groups 
-- Put in 3 panels beside each other **DONE, may need to adjust asthetics**
-![figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure3_richness_compac_soilgroups.png)
+
+![Figure 3]()
+
+### KW STATS
+
+For Soil Group 1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.6341708 
+
+For Soil Group 2 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.2529662 
+
+For Soil Group 3 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.2782093 
 
 ## Figure 4: Alpha Diversity compaction controlled for LTSP treatment
 ### Controlled for LTSP
