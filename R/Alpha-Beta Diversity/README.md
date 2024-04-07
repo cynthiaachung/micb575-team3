@@ -18,13 +18,15 @@ For figure 5, see other folder
 
 **Note below are only the color blind friendly plots, the normal ones can also be found in the files section if needed**
 
-## Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
+___________________________________________________________________________________
+
+# Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 
 - 4 panels, REF, OM1, OM2, OM3 
 Colour blind friendly palette:
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
-### K-W stats analysis
+## K-W stats analysis
 
 For REF : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03456481 
 
@@ -37,13 +39,13 @@ For OM3 : The difference in Shannon diversity across soil classifications is sta
 Note: Talk about trends
 
 
-### Supplemental: Phylogenetic diversity soil classification **DONE**
+## Supplemental: Phylogenetic diversity soil classification **DONE**
 
 colour blind palette:
 
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
 
-### K-W analysis
+## K-W analysis
 
 For  REF : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.004645887 
 
@@ -55,7 +57,7 @@ For  OM3 : The difference in Faith's Phylogenetic Diversity across soil classifi
 
 ___________________________________________________________________________________
 
-## Figure 2 Beta Diversity Soil Classification:
+# Figure 2 Beta Diversity Soil Classification:
 - Beta Diversity Bray-Curtis PCOA Plot 
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2_PCOA_soil.classification.png)
@@ -66,25 +68,25 @@ ________________________________________________________________________________
 - Soils grouped color blind pallet:
 ![Soils grouped colorblind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped_colorblind.png)
 
-### Permanova Stats
+## Permanova Stats
 
 ![permanova](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Screen%20Shot%202024-04-04%20at%2010.07.11%20PM.png)
 
 **Result: Pr(>F) values for Soil.Classification is 0.001 meaning there is a significant difference**
 
-### Supplemental 2: Taxa Bar Plot Genus Soil Classification **DONE**
+## Supplemental 2: Taxa Bar Plot Genus Soil Classification **DONE**
 
 ![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_2_TaxaBarPlot_colorblind.png)
 
 ___________________________________________________________________________________
 
-## Figure 3: Alpha Diversity Richness Compaction, controlled by soil group
+# Figure 3: Alpha Diversity Richness Compaction, controlled by soil group
 
-### Separated by soil groups 
+## Separated by soil groups 
 
 ![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_soilgroup_colorblind.png)
 
-### KW STATS
+## KW STATS
 
 For Soil Group 1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.6341708 
 
@@ -92,25 +94,25 @@ For Soil Group 2 : The difference in Shannon diversity across compaction treatme
 
 For Soil Group 3 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.2782093 
 
-### Supplemental 3 Faith's PD, compaction treatment
+## Supplemental 3 Faith's PD, compaction treatment
 
 ![Supplemental 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_3_colorblind.png)
 
-### Supplemental 3 stats KW
+## Supplemental 3 stats KW
 
 The difference in Faith's Phylogenetic Diversity across Compaction Treatment is not statistically significant. P-value: 0.2585947 
 
 ___________________________________________________________________________________
 
-## Figure 4: Alpha Diversity compaction controlled for LTSP treatment
+# Figure 4: Alpha Diversity compaction controlled for LTSP treatment
 
-### Controlled for LTSP
+## Controlled for LTSP
 
 color blind pallet:
 
 ![Figure 4](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_4_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 
-#### K-W stats analysis 
+### K-W stats analysis 
 
 For OM1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.324537 
 
@@ -118,7 +120,7 @@ For OM2 : The difference in Shannon diversity across compaction treatment is sta
 
 ___________________________________________________________________________________
 
-## Figure 5 Volcano Plots: 
+# Figure 5 Volcano Plots: 
 see other folder
 
 ___________________________________________________________________________________
