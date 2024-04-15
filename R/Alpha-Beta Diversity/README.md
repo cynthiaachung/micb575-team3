@@ -114,6 +114,10 @@ For OM1 : The difference in Shannon diversity across compaction treatment is not
 
 For OM2 : The difference in Shannon diversity across compaction treatment is statistically significant. P-value: 0.006780397 
 
+### Wilcoxon Rank Sum 
+
+![WX stats](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Screen%20Shot%202024-04-14%20at%205.39.20%20PM.png)
+
 ___________________________________________________________________________________
 
 # Figure 5 Volcano Plots: 
