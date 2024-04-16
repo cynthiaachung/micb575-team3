@@ -16,14 +16,13 @@
   1. Four panels Faith's PD graphs for soil classification separated by OM removal
   2. Two taxa bar plots (one for soil type, one for compaction)
   3. Faith's PD graphs for compaction, don't need to separate
- 
-  *power point
-1. title should be reflection of what we found
-2. fill white space
-3. need to better define what compaction is in the slides
-4. more visuals that show the effects of compaction
-5. show what organic matter removal means
-6. title is findings 
+* PowerPoint
+  1. Title should be reflection of what we found
+  2. Fill white space
+  3. Need to better define what compaction is in the slides
+  4. More visuals that show the effects of compaction
+  5. Show what organic matter removal means
+  6. Title is findings 
 
 # Archive 🗒️
 ### March 28, 2024
