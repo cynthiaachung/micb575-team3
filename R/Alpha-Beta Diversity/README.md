@@ -1,3 +1,6 @@
+**See "Report Figures" Folder for all the figures used in the paper including formatted versions**
+
+
 
 # Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 
