@@ -1,25 +1,3 @@
-# Plots Ready for Slides 🏄🏽‍♀️
-Figure 1:
-- Figure 1 and stats DONE
-- Supplemental 1 with stats DONE
-
-Figure 2:
-- Figure 2 plot and stats DONE
-- Supplemental 2 DONE (don't need stats)
-
-Figure 3:
-- Figure 3 Plot and stats
-- Supplemental 3 and stats done
-
-Figure 4:
-- Figure 4 plot and stats DONE
-- (no supplemental)
-
-For figure 5, see other folder
-
-**Note below are only the color blind friendly plots, the normal ones can also be found in the files section if needed**
-
-___________________________________________________________________________________
 
 # Figure 1: Soil Classification Alpha Diversity Richness - Controlled for LTSP Treatment
 
