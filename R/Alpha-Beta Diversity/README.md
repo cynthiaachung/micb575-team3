@@ -25,6 +25,8 @@ Figure 1. Soil classifications are grouped into three distinct clusters. The Bra
 
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
 
+Supplemental 1. Organic matter removal significantly impacts phylogenetic distance of the soil microbial community. Faith’s phylogenetic diversity was measured across seven  soil classifications among the four organic removal levels (REF, OM1, OM2, OM3). Faith’s Phylogenetic diversity provides a measurement of alpha-diversity with respect to richness, abundance, and phylogenetic distance; the quantified metric makes up the y-axis. A Kruskal-Wallis statistical analysis was performed and significance was determined as p < 0.05 as indicated by the asterisk (*).
+
 ## K-W statistics analysis
 
 For  REF : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.004645887 
@@ -61,6 +63,8 @@ Note from prof: Talk about trends
 
 ![Taxa-Genus Soil Classification](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_2_TaxaBarPlot_colorblind.png)
 
+Supplemental 2. Average genus abundance in each soil classification. Orthic Gray Luvisol and Gleyed Gray Luvisol have been grouped into one. 5 genuses are found in the soil types with all soil classification containing Nocardia (dark purple), Pandoraea (dark blue), and Zymomonas (yellow). Three soil types, Aquic Glossudalfs, Orthic Dystric Brunisol, and Orthic Humo-Ferric Podzol contain Treponema (light green). Gleyed Dystric Brunisol is the only soil classification which contains Tepidbacter (dark green). The average genus abundance makes up the y-axis.
+
 ___________________________________________________________________________________
 
 # Figure 3: Compaction level does not influence soil microbial diversity within soil groups
@@ -82,6 +86,8 @@ For Soil Group 3 : The difference in Shannon diversity across compaction treatme
 ## Supplemental 3: Compaction Treatment does not have an impact on biodiversity
 
 ![Supplemental 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_3_colorblind.png)
+
+Supplemental 3. Compaction Treatment does not have an impact on biodiversity. Phylogenetic diversity was measured across each compaction treatment (C0-C2) as well as the reference plot. Significance was determined at p <0.05 and there was no significance between compaction treatments found. 
 
 ## K-W statistics analysis
 
