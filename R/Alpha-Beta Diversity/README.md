@@ -89,7 +89,7 @@ color blind pallet:
 
 ![Figure 4](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_4_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 
-### K-W statistics analysis
+## K-W statistics analysis
 
 For OM1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.324537 
 
