@@ -102,4 +102,4 @@ For OM2 : The difference in Shannon diversity across compaction treatment is sta
 ___________________________________________________________________________________
 
 # Figure 5 Volcano Plots: 
-see other folder
+see "Differential Abundance" folder
