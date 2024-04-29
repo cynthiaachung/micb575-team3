@@ -4,6 +4,10 @@
 
 ![Beta](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2_PCOA_soil.classification.png)
 
+Figure 1. Soil classifications are grouped into three distinct clusters. The Bray-Curtis distances between the seven soil classification was plotted on a PCoA plot. Bray-Curtis provides a measurement of beta-diversity with respect to abundance and evenness, and is thus a metric for community dissimilarity. The soil classifications formed three distinct clusters: Soil Group 1 of Aquic Glassudalfs; Soil Group 2 of Brunisolic Gray Luvisol, Orthic Gray Luvisol, Gleyed Gray Luvisol; and Soil Group 3 of the remaining soil types. The ellipses were generated around each  soil group at a level of 0.95. The PERMANOVA test determined the significance between groups to be 0.001 (Pr(>F)). The viridis package was used to generate an inclusive color palette viewable to all readers.
+
+
+
 ## Permanova Stats
 
 **Result: Pr(>F) values for Soil.Classification is 0.001 meaning there is a significant difference**
