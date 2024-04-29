@@ -41,6 +41,8 @@ ________________________________________________________________________________
 
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
+Figure 2. Organic matter removal influences changes in soil microbial diversity dependent on soil type. Shannon’s diversity was measured across seven soil types (color coded) to the reference plots (REF) where no organic matter was removed and with increasing organic matter removal (OM1-OM3). Shannon’s diversity provides a measurement of alpha-diversity with respect to richness and abundance; the quantified metric makes up the y-axis. A Kruskal-Wallis statistical analysis was performed for each soil classification’s Shannon’s diversity within each LTSP Treatment type. Significance was determined at p <0.05 as indicated by the asterisk (*). The viridis package was used to generate an inclusive color palette viewable to all readers.
+
 ## K-W statistics analysis
 
 For REF : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03456481 
@@ -67,6 +69,8 @@ ________________________________________________________________________________
 
 ![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_soilgroup_colorblind.png)
 
+Figure 3. Compaction level does not influence soil microbial diversity within soil groups.    The impact of compaction level (color coded) on the microbial diversity of each soil group was measured by Shannon’s Diversity. Shannon’s diversity provides a measurement of alpha-diversity with respect to richness and abundance; the quantified metric makes up the y-axis. Soil Group 1 and Soil Group 3 only have data for compaction treatment levels C0 (dark purple) and REF (yellow), while the Soil Group 2 contains C0, C1, and C2 (green). A Kruskal-Wallis statistical analysis was done within each of the three soil groups, significance was determined to be p > 0.05. There is no significant microbial diversity difference due to  compaction treatment within any soil groups. The viridis package was used to generate an inclusive color palette viewable to all readers.
+
 ## K-W statistics analysis
 
 For Soil Group 1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.6341708 
@@ -92,6 +96,8 @@ ________________________________________________________________________________
 color blind pallet:
 
 ![Figure 4](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_4_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
+
+Figure 5. Removal of all organic matter (OM2) exacerbates the negative impact of compaction on soil microbial diversity. Shannon’s Diversity of across each compaction treatment level (C0-C2) was measured at all organic matter (OM) removal levels (REF, OM1, OM2, OM3). Shannon’s diversity provides a measurement of alpha-diversity with respect to richness and abundance; the quantified metric makes up the y-axis. The REF (yellow) only has data for compaction treatment REF, organic matter removal OM3 only has data for compaction treatment C0 (dark purple) and OM1 and OM2 only has data for CO, C1 (blue) and C2 (green) compaction treatment. Kruskal-Wallis was performed within the OM1 and OM2 LTSP treatment types to determine if there is a significant different in the alpha-diversity between the compaction treatment levels. A Wilcoxon rank-sum tests was performed between compaction treatment levels C0-C1, C1-C2, and C0-C2 within the OM2 LTSP treatment group. Significance was determined at p < 0.05 indicated by asterisk (*). The viridis package was used to generate an inclusive color palette viewable to all readers.
 
 ## K-W statistics analysis
 
