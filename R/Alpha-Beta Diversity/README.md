@@ -21,7 +21,7 @@
 
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
 
-## K-W analysis
+## K-W statistics analysis
 
 For  REF : The difference in Faith's Phylogenetic Diversity across soil classifications is statistically significant. P-value: 0.004645887 
 
@@ -37,7 +37,7 @@ ________________________________________________________________________________
 
 ![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
 
-## K-W stats analysis
+## K-W statistics analysis
 
 For REF : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03456481 
 
@@ -63,7 +63,7 @@ ________________________________________________________________________________
 
 ![Figure 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_3_AlphaDiversityRichness_compac_vs_soilgroup_colorblind.png)
 
-## KW STATS
+## K-W statistics analysis
 
 For Soil Group 1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.6341708 
 
@@ -75,7 +75,7 @@ For Soil Group 3 : The difference in Shannon diversity across compaction treatme
 
 ![Supplemental 3](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_3_colorblind.png)
 
-## Supplemental 3 stats KW
+## K-W statistics analysis
 
 The difference in Faith's Phylogenetic Diversity across Compaction Treatment is not statistically significant. P-value: 0.2585947 
 
@@ -89,7 +89,7 @@ color blind pallet:
 
 ![Figure 4](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_4_AlphaDiversityRichness_compac_vs_LTSP_colorblind.png)
 
-### K-W stats analysis 
+### K-W statistics analysis
 
 For OM1 : The difference in Shannon diversity across compaction treatment is not statistically significant. P-value: 0.324537 
 
