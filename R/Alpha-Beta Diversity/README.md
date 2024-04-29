@@ -17,23 +17,6 @@
 ![Soils grouped colorblind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_2.2_SoilGrouped_colorblind.png)
 
 
-# Figure 2: Organic matter removal influences changes in soil microbial diversity dependent on soil type
-
-![Figure 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Figure_1_AlphaDiversityRichness_horizontal_panels_colorblind.png)
-
-## K-W stats analysis
-
-For REF : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03456481 
-
-For OM1 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.0001358425 
-
-For OM2 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 5.283175e-05 
-
-For OM3 : The difference in Shannon diversity across soil classifications is statistically significant. P-value: 0.03308952 
-
-Note from prof: Talk about trends
-
-
 ## Supplemental 1: Organic matter removal significantly impacts phylogenetic distance of the soil microbial community
 
 ![Supplemental 1 color blind](https://github.com/cynthiaachung/micb575-team3/blob/main/R/Alpha-Beta%20Diversity/Supplemental_1_colorblind.png)
